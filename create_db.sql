@@ -1,15 +1,3 @@
--- Use this block from SYSTEM user
--- CREATE USER cop3710 IDENTIFIED BY "sp2026";
--- GRANT ALL PRIVILEGES TO cop3710;
-
--- Use this block from COP3710 user
--- Use this block from SYSTEM user
--- CREATE USER cop3710 IDENTIFIED BY "sp2026";
--- GRANT ALL PRIVILEGES TO cop3710;
-
--- Use this block from COP3710 user
-CREATE SEQUENCE id_seq;
-
 -- 1. Stations Table
 CREATE TABLE stations (
     station_id      INTEGER PRIMARY KEY,
