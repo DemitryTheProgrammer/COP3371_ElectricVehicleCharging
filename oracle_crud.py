@@ -2,9 +2,9 @@ import oracledb
 
 # --- CONFIGURATION ---
 LIB_DIR = r"C:\Users\dblou\Downloads\Databases\instantclient_23_0"
-DB_USER = "DEMITRYLOUINE_SCHEMA_R3LQP"
-DB_PASS = "ZM#BXRAUDJ5W8TWKQCI2cMSXV24GXE"
-DB_DSN  = "db.freesql.com:1521/23ai_34ui2"
+DB_USER = ""
+DB_PASS = ""
+DB_DSN  = ""
 
 # 1. Initialize Thick Mode
 if LIB_DIR:
