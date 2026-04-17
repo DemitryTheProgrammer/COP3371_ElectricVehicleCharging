@@ -1,76 +1,81 @@
 import oracledb
-import pandas as pd
-
-# Add this before creating sess_data
+import csv
 
 # --- SETUP ---
-# Update this path to your Instant Client location
-LIB_DIR = r"C:\Users\dblou\Downloads\Databases\instantclient_23_0" 
-DB_USER = "DEMITRYLOUINE_SCHEMA_R3LQP"
-DB_PASS = "ZM#BXRAUDJ5W8TWKQCI2cMSXV24GXE"
-DB_DSN  = "db.freesql.com:1521/23ai_34ui2"
+LIB_DIR = r"" 
+DB_USER = ""
+DB_PASS = ""
+DB_DSN = ""
 
-# Initialize Thick Mode for Oracle connection
-oracledb.init_oracle_client(lib_dir=LIB_DIR)
+try:
+    oracledb.init_oracle_client(lib_dir=LIB_DIR)
+except Exception as e:
+    print(f"Oracle Client info: {e}")
 
-def normalized_bulk_load(file_path):
+def bulk_load_normalized(file_path):
+    conn = None
     try:
-        # 1. Load data using pandas for easier manipulation [cite: 1, 9]
-        df = pd.read_csv(file_path)
-        df['Charging Cost (USD)'] = df['Charging Cost (USD)'].replace(r'[\$,]', '', regex=True).astype(float)
-        df['Battery Capacity (kWh)'] = df['Battery Capacity (kWh)'].fillna(0)
-        df['Vehicle Age (years)'] = df['Vehicle Age (years)'].fillna(0)
-        df['Energy Consumed (kWh)'] = df['Energy Consumed (kWh)'].fillna(0)
-        df['Charging Cost (USD)'] = df['Charging Cost (USD)'].fillna(0)
-
-        
-        # 2. Connect to Database
         conn = oracledb.connect(user=DB_USER, password=DB_PASS, dsn=DB_DSN)
         cursor = conn.cursor()
 
-        # --- TABLE 1: VEHICLES ---
-        # Get unique vehicle models and their battery capacities [cite: 1, 15]
-        vehicles = df[['Vehicle Model', 'Battery Capacity (kWh)']].drop_duplicates()
-        v_data = [tuple(x) for x in vehicles.values]
-        # Change the SQL command to only insert if the model doesn't exist
-        cursor.executemany("""INSERT INTO Vehicles (model, battery_capacity) SELECT :1, :2 FROM DUAL WHERE NOT EXISTS (SELECT 1 FROM Vehicles WHERE model = :1)""", v_data)
+        # Data containers to hold unique records for parent tables
+        unique_users = {}    # {user_id: (user_id, email)}
+        unique_stations = {} # {station_id: (station_id, name, address)}
+        station_details = {} # {station_id: (station_id, network_type)}
+        sessions_list = []   # List of tuples for the linking table
 
-        # --- TABLE 2: STATIONS ---
-        # Get unique stations and their locations [cite: 2, 10]
-        stations = df[['Charging Station ID', 'Charging Station Location', 'Charger Type']].drop_duplicates()
-        st_data = [tuple(x) for x in stations.values]
-        # Insert only if the station_id doesn't exist
-        cursor.executemany("""INSERT INTO Stations (station_id, location, charger_type)SELECT :1, :2, :3 FROM DUAL WHERE NOT EXISTS (SELECT 1 FROM Stations WHERE station_id = :1)""", st_data)
+        print("Reading and processing CSV data...")
+        with open(file_path, mode='r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            for i, row in enumerate(reader, start=1):
+                u_id = int(row['user_id'])
+                s_id = int(row['station_id'])
+                
+                # Handle missing energy values
+                energy_val = row['energy_consumed_kwh'].strip()
+                energy = float(energy_val) if energy_val else None
+                
+                # 1. Collect Unique Users
+                if u_id not in unique_users:
+                    unique_users[u_id] = (u_id, row['email'])
+                
+                # 2. Collect Unique Stations and Details
+                if s_id not in unique_stations:
+                    unique_stations[s_id] = (s_id, row['station_name'], row['location_address'])
+                    station_details[s_id] = (s_id, row['network_type'])
+                
+                # 3. Collect Sessions (Every row in CSV is a session)
+                # We use 'i' as a generated session_id
+                sessions_list.append((i, u_id, s_id, energy))
 
-        # --- TABLE 3: USERS ---
-        # Get unique users 
-        users = df[['User ID', 'User Type', 'Vehicle Age (years)']].drop_duplicates('User ID')
-        u_data = [tuple(x) for x in users.values]
-        # Insert only if the user_id doesn't exist
-        cursor.executemany("""INSERT INTO Users (user_id, user_type, vehicle_age)SELECT :1, :2, :3 FROM DUAL WHERE NOT EXISTS (SELECT 1 FROM Users WHERE user_id = :1)""", u_data)
+        # --- BULK INSERTION ---
+        
+        print("Loading Users...")
+        cursor.executemany("INSERT INTO users (user_id, email) VALUES (:1, :2)", 
+                           list(unique_users.values()))
+        
+        print("Loading Stations...")
+        cursor.executemany("INSERT INTO stations (station_id, station_name, location_address) VALUES (:1, :2, :3)", 
+                           list(unique_stations.values()))
+        
+        print("Loading Station Details...")
+        cursor.executemany("INSERT INTO station_details (station_id, network_type) VALUES (:1, :2)", 
+                           list(station_details.values()))
+        
+        print("Loading Charging Sessions...")
+        cursor.executemany("INSERT INTO charging_sessions (session_id, user_id, station_id, energy_consumed_kwh) VALUES (:1, :2, :3, :4)", 
+                           sessions_list)
 
-        # --- TABLE 4: SESSIONS (The main fact table) ---
-        # Extract the core transaction data [cite: 3, 10]
-        sessions = df[[
-            'User ID', 'Vehicle Model', 'Charging Station ID', 
-            'Charging Start Time', 'Charging End Time', 'Energy Consumed (kWh)', 'Charging Cost (USD)'
-        ]]
-        sess_data = [tuple(x) for x in sessions.values]
-        cursor.executemany(
-            "INSERT INTO ChargingSessions (user_id, vehicle_model, station_id, start_time, end_time, energy, cost) "
-            "VALUES (:1, :2, :3, TO_DATE(:4, 'YYYY-MM-DD HH24:MI:SS'), TO_DATE(:5, 'YYYY-MM-DD HH24:MI:SS'), :6, :7)", 
-            sess_data
-        )
-
-        # Commit all changes
         conn.commit()
-        print("Successfully normalized and loaded data into 4 tables.")
+        print("\nSUCCESS: All normalized tables have been loaded.")
 
+    except oracledb.Error as e:
+        print(f"\nDATABASE ERROR: {e}")
+        if conn: conn.rollback()
     except Exception as e:
-        print(f"Error during bulk load: {e}")
+        print(f"\nPYTHON ERROR: {e}")
     finally:
-        if 'conn' in locals():
-            conn.close()
+        if conn: conn.close()
 
-# Run the function
-normalized_bulk_load('ev_charging_patterns.csv')
+if __name__ == "__main__":
+    bulk_load_normalized('ev_charging_patterns_cleaned.csv')
