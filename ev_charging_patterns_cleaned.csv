@@ -1,0 +1,1321 @@
+user_id,station_id,station_name,location_address,network_type,energy_consumed_kwh,email
+1,391,Station_391,Houston,DC Fast Charger,60.71234573492677,user_1@example.com
+2,428,Station_428,San Francisco,Level 1,12.339275203733752,user_2@example.com
+3,181,Station_181,San Francisco,Level 2,19.12887570011548,user_3@example.com
+4,327,Station_327,Houston,Level 1,79.45782398845503,user_4@example.com
+5,108,Station_108,Los Angeles,Level 1,19.62910416772725,user_5@example.com
+6,335,Station_335,San Francisco,DC Fast Charger,43.18113714248533,user_6@example.com
+7,162,Station_162,Houston,Level 2,36.862139988267536,user_7@example.com
+8,302,Station_302,Los Angeles,Level 2,51.46761685839947,user_8@example.com
+9,493,Station_493,Los Angeles,Level 1,43.59237228216989,user_9@example.com
+10,452,Station_452,Chicago,DC Fast Charger,78.86860745126785,user_10@example.com
+11,206,Station_206,Los Angeles,DC Fast Charger,18.20619747737872,user_11@example.com
+12,78,Station_78,San Francisco,DC Fast Charger,22.564929484106763,user_12@example.com
+13,16,Station_16,San Francisco,Level 2,34.256452908516025,user_13@example.com
+14,327,Station_327,Houston,Level 2,16.56106432522506,user_14@example.com
+15,96,Station_96,Houston,Level 1,12.927545290947553,user_15@example.com
+16,147,Station_147,Los Angeles,DC Fast Charger,27.354317884610715,user_16@example.com
+17,2,Station_2,New York,DC Fast Charger,24.726937680708804,user_17@example.com
+18,10,Station_10,Chicago,Level 2,23.824040473705303,user_18@example.com
+19,434,Station_434,New York,Level 1,42.63801819167288,user_19@example.com
+20,125,Station_125,Los Angeles,Level 2,48.48248430757049,user_20@example.com
+21,81,Station_81,Los Angeles,Level 2,50.27906667357191,user_21@example.com
+22,485,Station_485,New York,Level 1,59.1350316162392,user_22@example.com
+23,140,Station_140,Chicago,DC Fast Charger,49.19642958971384,user_23@example.com
+24,326,Station_326,New York,DC Fast Charger,68.44712632026376,user_24@example.com
+25,150,Station_150,Houston,Level 1,27.60438468247694,user_25@example.com
+26,288,Station_288,San Francisco,DC Fast Charger,40.178003499947216,user_26@example.com
+27,361,Station_361,Houston,Level 1,43.487751224792326,user_27@example.com
+28,340,Station_340,San Francisco,Level 1,10.338517723856468,user_28@example.com
+29,129,Station_129,Los Angeles,Level 2,31.68448458657448,user_29@example.com
+30,438,Station_438,Chicago,DC Fast Charger,56.59325685914933,user_30@example.com
+31,239,Station_239,New York,DC Fast Charger,19.473800595427143,user_31@example.com
+32,58,Station_58,Chicago,Level 1,38.28919933554271,user_32@example.com
+33,198,Station_198,New York,Level 2,16.136238725396332,user_33@example.com
+34,211,Station_211,Houston,Level 2,60.06708508895625,user_34@example.com
+35,402,Station_402,Houston,DC Fast Charger,57.72437946101146,user_35@example.com
+36,390,Station_390,New York,Level 1,37.37451606078376,user_36@example.com
+37,45,Station_45,Chicago,DC Fast Charger,39.940563619980615,user_37@example.com
+38,97,Station_97,New York,DC Fast Charger,73.38661952275571,user_38@example.com
+39,279,Station_279,Los Angeles,Level 2,61.52075986084904,user_39@example.com
+40,23,Station_23,Houston,Level 2,68.17785003637414,user_40@example.com
+41,410,Station_410,Los Angeles,Level 2,67.51805822343026,user_41@example.com
+42,461,Station_461,Houston,Level 2,39.398742356080696,user_42@example.com
+43,391,Station_391,Houston,Level 1,12.049319706245154,user_43@example.com
+44,335,Station_335,San Francisco,DC Fast Charger,77.0536063752363,user_44@example.com
+45,44,Station_44,Los Angeles,Level 2,,user_45@example.com
+46,27,Station_27,Los Angeles,DC Fast Charger,46.80719594482398,user_46@example.com
+47,282,Station_282,San Francisco,Level 1,67.47546614008147,user_47@example.com
+48,97,Station_97,Chicago,Level 2,30.710934027103814,user_48@example.com
+49,463,Station_463,Los Angeles,Level 1,,user_49@example.com
+50,36,Station_36,New York,Level 2,8.713190575944605,user_50@example.com
+51,109,Station_109,San Francisco,DC Fast Charger,9.06588081544948,user_51@example.com
+52,55,Station_55,Los Angeles,Level 1,58.73397361690925,user_52@example.com
+53,192,Station_192,Chicago,Level 2,65.98624912728606,user_53@example.com
+54,219,Station_219,Los Angeles,DC Fast Charger,74.99970643372605,user_54@example.com
+55,185,Station_185,Houston,DC Fast Charger,17.769436409407696,user_55@example.com
+56,69,Station_69,New York,DC Fast Charger,50.26893407436542,user_56@example.com
+57,317,Station_317,San Francisco,Level 2,76.45046498743068,user_57@example.com
+58,130,Station_130,Houston,DC Fast Charger,77.86372676031044,user_58@example.com
+59,55,Station_55,Chicago,DC Fast Charger,21.89299267514347,user_59@example.com
+60,378,Station_378,Houston,Level 2,71.28000416235402,user_60@example.com
+61,97,Station_97,Houston,Level 1,21.82768817738645,user_61@example.com
+62,336,Station_336,Chicago,DC Fast Charger,62.723162291274086,user_62@example.com
+63,87,Station_87,Houston,Level 2,46.1951370011332,user_63@example.com
+64,294,Station_294,San Francisco,Level 1,29.34565985727085,user_64@example.com
+65,119,Station_119,Los Angeles,DC Fast Charger,76.93342189972203,user_65@example.com
+66,208,Station_208,Houston,Level 2,59.25460166411963,user_66@example.com
+67,334,Station_334,San Francisco,Level 2,37.06292777850246,user_67@example.com
+68,413,Station_413,Los Angeles,DC Fast Charger,67.69516175123809,user_68@example.com
+69,154,Station_154,Los Angeles,Level 1,16.41401693253662,user_69@example.com
+70,35,Station_35,Houston,Level 1,67.00568214318923,user_70@example.com
+71,79,Station_79,San Francisco,Level 1,70.61729259484447,user_71@example.com
+72,67,Station_67,Houston,DC Fast Charger,61.13047583037784,user_72@example.com
+73,343,Station_343,Chicago,DC Fast Charger,22.88203842151127,user_73@example.com
+74,413,Station_413,Los Angeles,Level 1,12.894887186031896,user_74@example.com
+75,34,Station_34,Houston,Level 1,69.16916705566726,user_75@example.com
+76,97,Station_97,Los Angeles,Level 1,,user_76@example.com
+77,169,Station_169,San Francisco,Level 1,49.2788373994772,user_77@example.com
+78,169,Station_169,New York,Level 2,31.218889683829406,user_78@example.com
+79,151,Station_151,Houston,DC Fast Charger,30.651699818598622,user_79@example.com
+80,71,Station_71,Houston,Level 1,59.9864767329939,user_80@example.com
+81,3,Station_3,Los Angeles,Level 2,51.67374779364138,user_81@example.com
+82,314,Station_314,San Francisco,Level 1,35.9072426531086,user_82@example.com
+83,32,Station_32,Chicago,Level 1,41.60783353260332,user_83@example.com
+84,287,Station_287,San Francisco,Level 2,32.83295683246542,user_84@example.com
+85,82,Station_82,Houston,Level 1,57.92445004054599,user_85@example.com
+86,43,Station_43,Chicago,Level 1,21.65616411567424,user_86@example.com
+87,391,Station_391,San Francisco,Level 2,41.01058174547109,user_87@example.com
+88,105,Station_105,New York,Level 2,79.81869447094793,user_88@example.com
+89,1,Station_1,Los Angeles,Level 2,33.07294950547435,user_89@example.com
+90,61,Station_61,San Francisco,Level 2,27.84315247164263,user_90@example.com
+91,270,Station_270,San Francisco,Level 2,28.440773917754164,user_91@example.com
+92,180,Station_180,New York,Level 1,68.57302471319414,user_92@example.com
+93,224,Station_224,Houston,DC Fast Charger,65.431016913359,user_93@example.com
+94,6,Station_6,Los Angeles,Level 2,71.61568949106118,user_94@example.com
+95,103,Station_103,San Francisco,DC Fast Charger,7.930901450146639,user_95@example.com
+96,10,Station_10,Chicago,Level 1,,user_96@example.com
+97,71,Station_71,San Francisco,Level 2,55.72920335411825,user_97@example.com
+98,90,Station_90,Los Angeles,DC Fast Charger,31.046574961450595,user_98@example.com
+99,226,Station_226,San Francisco,DC Fast Charger,15.91756323749268,user_99@example.com
+100,158,Station_158,New York,DC Fast Charger,50.90348235510272,user_100@example.com
+101,228,Station_228,San Francisco,DC Fast Charger,71.47764853216556,user_101@example.com
+102,405,Station_405,San Francisco,DC Fast Charger,74.15366015953305,user_102@example.com
+103,126,Station_126,Chicago,Level 2,46.77551047348464,user_103@example.com
+104,444,Station_444,New York,Level 2,8.469643800499997,user_104@example.com
+105,209,Station_209,New York,Level 2,61.697438669843606,user_105@example.com
+106,97,Station_97,San Francisco,DC Fast Charger,41.264155052372864,user_106@example.com
+107,74,Station_74,Chicago,DC Fast Charger,6.503953233800639,user_107@example.com
+108,115,Station_115,San Francisco,Level 1,65.89318362199285,user_108@example.com
+109,191,Station_191,San Francisco,DC Fast Charger,13.262909019022482,user_109@example.com
+110,495,Station_495,Los Angeles,Level 1,,user_110@example.com
+111,170,Station_170,Los Angeles,Level 1,27.42595097070096,user_111@example.com
+112,307,Station_307,Chicago,Level 2,7.358446629421065,user_112@example.com
+113,448,Station_448,Houston,DC Fast Charger,36.13726899530781,user_113@example.com
+114,204,Station_204,Los Angeles,DC Fast Charger,29.16952953646135,user_114@example.com
+115,56,Station_56,Houston,Level 1,43.4453789766191,user_115@example.com
+116,208,Station_208,New York,Level 1,26.8691096120868,user_116@example.com
+117,41,Station_41,Los Angeles,DC Fast Charger,17.933479173039434,user_117@example.com
+118,32,Station_32,Los Angeles,Level 1,60.47162634897462,user_118@example.com
+119,15,Station_15,Chicago,DC Fast Charger,17.704737472368393,user_119@example.com
+120,62,Station_62,Houston,DC Fast Charger,47.71409590115245,user_120@example.com
+121,155,Station_155,Los Angeles,Level 1,71.18526462073517,user_121@example.com
+122,284,Station_284,Los Angeles,Level 2,39.64439031543013,user_122@example.com
+123,209,Station_209,Chicago,DC Fast Charger,24.84871287490711,user_123@example.com
+124,320,Station_320,Chicago,Level 1,7.515940355911836,user_124@example.com
+125,494,Station_494,Houston,Level 1,64.41904928508166,user_125@example.com
+126,187,Station_187,New York,Level 1,6.189015903017523,user_126@example.com
+127,498,Station_498,New York,DC Fast Charger,37.787903717013286,user_127@example.com
+128,442,Station_442,San Francisco,DC Fast Charger,9.15123419135714,user_128@example.com
+129,130,Station_130,Los Angeles,DC Fast Charger,15.660564019843829,user_129@example.com
+130,127,Station_127,Houston,Level 1,35.55367093393553,user_130@example.com
+131,292,Station_292,Los Angeles,Level 2,47.52745876259207,user_131@example.com
+132,114,Station_114,Houston,Level 2,36.616568616352566,user_132@example.com
+133,199,Station_199,Houston,DC Fast Charger,65.48719595789339,user_133@example.com
+134,13,Station_13,Houston,DC Fast Charger,33.88719708294054,user_134@example.com
+135,271,Station_271,Los Angeles,DC Fast Charger,47.29002739188249,user_135@example.com
+136,89,Station_89,Chicago,Level 2,48.48756787108178,user_136@example.com
+137,215,Station_215,Los Angeles,Level 2,15.010165946159637,user_137@example.com
+138,444,Station_444,Houston,DC Fast Charger,30.06513890238722,user_138@example.com
+139,278,Station_278,San Francisco,Level 1,74.10645011572457,user_139@example.com
+140,447,Station_447,New York,Level 2,66.15159678916712,user_140@example.com
+141,474,Station_474,Houston,DC Fast Charger,47.37743937319623,user_141@example.com
+142,481,Station_481,San Francisco,Level 2,45.99296137212069,user_142@example.com
+143,203,Station_203,Chicago,Level 1,48.28787199679972,user_143@example.com
+144,74,Station_74,Houston,Level 1,78.69341922441535,user_144@example.com
+145,25,Station_25,San Francisco,Level 2,68.03002486170053,user_145@example.com
+146,101,Station_101,Houston,DC Fast Charger,40.24838259933458,user_146@example.com
+147,176,Station_176,Los Angeles,Level 2,74.28073484499863,user_147@example.com
+148,427,Station_427,San Francisco,DC Fast Charger,,user_148@example.com
+149,117,Station_117,Los Angeles,Level 2,74.94807969154884,user_149@example.com
+150,166,Station_166,Los Angeles,Level 1,52.884130298910776,user_150@example.com
+151,41,Station_41,San Francisco,Level 2,34.96988837156509,user_151@example.com
+152,429,Station_429,New York,DC Fast Charger,55.91756316726556,user_152@example.com
+153,344,Station_344,San Francisco,DC Fast Charger,76.59801205371735,user_153@example.com
+154,424,Station_424,New York,Level 1,20.25597516487363,user_154@example.com
+155,366,Station_366,Houston,DC Fast Charger,56.06879094629386,user_155@example.com
+156,120,Station_120,Houston,DC Fast Charger,65.04979561439833,user_156@example.com
+157,97,Station_97,San Francisco,Level 1,,user_157@example.com
+158,145,Station_145,Houston,DC Fast Charger,23.57128153810389,user_158@example.com
+159,216,Station_216,Chicago,DC Fast Charger,,user_159@example.com
+160,229,Station_229,Los Angeles,Level 2,41.08911136063269,user_160@example.com
+161,313,Station_313,Los Angeles,Level 2,48.99847458311938,user_161@example.com
+162,130,Station_130,New York,Level 2,10.2776080929522,user_162@example.com
+163,352,Station_352,Houston,Level 2,45.57396766460627,user_163@example.com
+164,377,Station_377,New York,Level 2,69.1055463943984,user_164@example.com
+165,318,Station_318,Los Angeles,Level 2,37.76450274178449,user_165@example.com
+166,472,Station_472,Los Angeles,Level 2,14.495687027174723,user_166@example.com
+167,137,Station_137,Houston,Level 1,54.64087910335184,user_167@example.com
+168,324,Station_324,Chicago,Level 2,67.89119052685948,user_168@example.com
+169,337,Station_337,Chicago,DC Fast Charger,22.742594390832505,user_169@example.com
+170,273,Station_273,Houston,Level 1,56.01783153828373,user_170@example.com
+171,117,Station_117,Houston,Level 2,127.75747441174424,user_171@example.com
+172,306,Station_306,New York,Level 2,13.87716708884735,user_172@example.com
+173,368,Station_368,Houston,DC Fast Charger,,user_173@example.com
+174,94,Station_94,Chicago,Level 1,47.82436784944839,user_174@example.com
+175,168,Station_168,Houston,DC Fast Charger,71.14274635725945,user_175@example.com
+176,442,Station_442,New York,DC Fast Charger,6.08863208957066,user_176@example.com
+177,203,Station_203,New York,Level 1,33.098691426112154,user_177@example.com
+178,341,Station_341,New York,DC Fast Charger,78.83314651875263,user_178@example.com
+179,149,Station_149,New York,Level 1,63.23651609867501,user_179@example.com
+180,402,Station_402,San Francisco,DC Fast Charger,50.16138087841768,user_180@example.com
+181,183,Station_183,Houston,Level 1,21.82050636814289,user_181@example.com
+182,413,Station_413,Los Angeles,Level 2,61.00032235899777,user_182@example.com
+183,152,Station_152,Houston,Level 1,47.3146093849059,user_183@example.com
+184,74,Station_74,San Francisco,DC Fast Charger,33.78434419301355,user_184@example.com
+185,365,Station_365,New York,DC Fast Charger,47.84104322110981,user_185@example.com
+186,401,Station_401,San Francisco,Level 2,10.640152157210183,user_186@example.com
+187,274,Station_274,Chicago,Level 2,72.2378188219246,user_187@example.com
+188,42,Station_42,Chicago,Level 2,36.15792621947456,user_188@example.com
+189,496,Station_496,Houston,Level 1,63.62653233247981,user_189@example.com
+190,212,Station_212,Houston,Level 1,8.349591228417406,user_190@example.com
+191,101,Station_101,Los Angeles,Level 1,65.83154346501938,user_191@example.com
+192,45,Station_45,Los Angeles,Level 1,55.18877391493572,user_192@example.com
+193,82,Station_82,Chicago,Level 1,55.97943470013186,user_193@example.com
+194,17,Station_17,New York,DC Fast Charger,38.50773758511891,user_194@example.com
+195,73,Station_73,San Francisco,DC Fast Charger,13.105812024979125,user_195@example.com
+196,14,Station_14,Los Angeles,DC Fast Charger,7.81642400450342,user_196@example.com
+197,433,Station_433,Los Angeles,Level 1,52.50980894268295,user_197@example.com
+198,157,Station_157,New York,Level 2,12.128018048871455,user_198@example.com
+199,223,Station_223,New York,DC Fast Charger,28.98835178470727,user_199@example.com
+200,132,Station_132,Houston,DC Fast Charger,13.485195325551771,user_200@example.com
+201,338,Station_338,San Francisco,Level 1,80.72941928487083,user_201@example.com
+202,404,Station_404,New York,Level 1,53.58667286183268,user_202@example.com
+203,376,Station_376,Los Angeles,Level 1,72.82858509991425,user_203@example.com
+204,376,Station_376,Los Angeles,DC Fast Charger,64.23213303009759,user_204@example.com
+205,47,Station_47,Chicago,Level 2,17.854873424356434,user_205@example.com
+206,107,Station_107,New York,Level 1,63.85425613845187,user_206@example.com
+207,108,Station_108,Houston,Level 1,70.99471727287802,user_207@example.com
+208,265,Station_265,San Francisco,Level 2,62.24807114091579,user_208@example.com
+209,205,Station_205,Houston,Level 2,78.64289917152071,user_209@example.com
+210,79,Station_79,Los Angeles,Level 2,6.961875674256488,user_210@example.com
+211,155,Station_155,Houston,Level 1,75.18617180833594,user_211@example.com
+212,271,Station_271,Los Angeles,Level 1,1.7545202338044217,user_212@example.com
+213,476,Station_476,Los Angeles,DC Fast Charger,73.61433544405698,user_213@example.com
+214,485,Station_485,Los Angeles,DC Fast Charger,6.377874090357831,user_214@example.com
+215,247,Station_247,Los Angeles,DC Fast Charger,51.16182197500394,user_215@example.com
+216,19,Station_19,Los Angeles,DC Fast Charger,28.22969163134975,user_216@example.com
+217,346,Station_346,Chicago,DC Fast Charger,67.9228322505551,user_217@example.com
+218,436,Station_436,Houston,DC Fast Charger,15.273666673214588,user_218@example.com
+219,26,Station_26,Chicago,Level 1,50.643736597993126,user_219@example.com
+220,217,Station_217,Chicago,DC Fast Charger,52.05474164868848,user_220@example.com
+221,154,Station_154,New York,Level 1,57.89799819019454,user_221@example.com
+222,154,Station_154,New York,Level 1,30.900798344474765,user_222@example.com
+223,174,Station_174,New York,Level 2,35.348377133007446,user_223@example.com
+224,92,Station_92,San Francisco,Level 1,11.92593792090742,user_224@example.com
+225,433,Station_433,New York,Level 1,55.46412783572684,user_225@example.com
+226,338,Station_338,Houston,Level 1,44.15948700741327,user_226@example.com
+227,480,Station_480,Chicago,Level 2,65.24475504703462,user_227@example.com
+228,181,Station_181,Houston,Level 1,20.46478094414017,user_228@example.com
+229,131,Station_131,New York,Level 2,49.186728304534114,user_229@example.com
+230,450,Station_450,San Francisco,DC Fast Charger,32.64266713861244,user_230@example.com
+231,481,Station_481,San Francisco,Level 1,66.62370004100543,user_231@example.com
+232,298,Station_298,Chicago,DC Fast Charger,33.365508790480845,user_232@example.com
+233,275,Station_275,Houston,Level 1,68.82528250979368,user_233@example.com
+234,273,Station_273,Los Angeles,Level 2,65.89172326762375,user_234@example.com
+235,492,Station_492,Houston,DC Fast Charger,,user_235@example.com
+236,417,Station_417,New York,Level 1,12.669821074783703,user_236@example.com
+237,76,Station_76,Los Angeles,Level 1,25.35411411775736,user_237@example.com
+238,177,Station_177,San Francisco,Level 2,37.928111661586094,user_238@example.com
+239,184,Station_184,Chicago,Level 1,,user_239@example.com
+240,319,Station_319,Chicago,DC Fast Charger,31.877190174337137,user_240@example.com
+241,131,Station_131,San Francisco,Level 2,29.582840438091417,user_241@example.com
+242,363,Station_363,New York,DC Fast Charger,37.50977747998428,user_242@example.com
+243,49,Station_49,San Francisco,DC Fast Charger,7.849721866582429,user_243@example.com
+244,55,Station_55,New York,Level 1,66.52076448264908,user_244@example.com
+245,154,Station_154,Los Angeles,Level 1,,user_245@example.com
+246,355,Station_355,San Francisco,Level 2,29.84062267463912,user_246@example.com
+247,200,Station_200,New York,Level 2,59.781219876480165,user_247@example.com
+248,308,Station_308,Los Angeles,Level 2,76.3581979165499,user_248@example.com
+249,356,Station_356,San Francisco,DC Fast Charger,60.41010374511423,user_249@example.com
+250,373,Station_373,Chicago,DC Fast Charger,44.78548903983442,user_250@example.com
+251,118,Station_118,San Francisco,DC Fast Charger,22.22767365216008,user_251@example.com
+252,263,Station_263,Houston,DC Fast Charger,22.275712407676338,user_252@example.com
+253,46,Station_46,San Francisco,Level 1,29.01396645530415,user_253@example.com
+254,302,Station_302,Houston,Level 2,61.1175287370132,user_254@example.com
+255,356,Station_356,Los Angeles,Level 1,65.55092159002764,user_255@example.com
+256,400,Station_400,San Francisco,Level 1,76.57976765251057,user_256@example.com
+257,408,Station_408,Los Angeles,DC Fast Charger,37.09360176408391,user_257@example.com
+258,189,Station_189,Los Angeles,Level 2,56.35798687093989,user_258@example.com
+259,310,Station_310,New York,DC Fast Charger,6.35451648199704,user_259@example.com
+260,318,Station_318,Los Angeles,DC Fast Charger,60.5227294924313,user_260@example.com
+261,129,Station_129,Los Angeles,Level 2,49.62151165856079,user_261@example.com
+262,49,Station_49,San Francisco,Level 2,54.126087254300025,user_262@example.com
+263,25,Station_25,San Francisco,Level 1,13.088994842173186,user_263@example.com
+264,266,Station_266,Chicago,DC Fast Charger,7.424244899456774,user_264@example.com
+265,118,Station_118,New York,DC Fast Charger,47.08633600039671,user_265@example.com
+266,464,Station_464,Los Angeles,DC Fast Charger,,user_266@example.com
+267,144,Station_144,New York,Level 2,56.82135247009669,user_267@example.com
+268,442,Station_442,Houston,DC Fast Charger,36.53187940069507,user_268@example.com
+269,200,Station_200,Los Angeles,DC Fast Charger,58.151062888392886,user_269@example.com
+270,157,Station_157,New York,DC Fast Charger,63.59427153371392,user_270@example.com
+271,487,Station_487,Chicago,DC Fast Charger,55.415049767383415,user_271@example.com
+272,348,Station_348,Chicago,Level 1,12.919879701960571,user_272@example.com
+273,134,Station_134,Los Angeles,Level 2,70.24471717977453,user_273@example.com
+274,400,Station_400,Houston,Level 1,47.904097938603606,user_274@example.com
+275,148,Station_148,Chicago,Level 2,59.14827213488981,user_275@example.com
+276,336,Station_336,Chicago,DC Fast Charger,6.462698570789017,user_276@example.com
+277,71,Station_71,Houston,Level 2,79.0022597060318,user_277@example.com
+278,233,Station_233,New York,Level 1,19.9168777203513,user_278@example.com
+279,334,Station_334,Chicago,DC Fast Charger,73.22951284506478,user_279@example.com
+280,299,Station_299,San Francisco,Level 1,15.058971703234262,user_280@example.com
+281,154,Station_154,Chicago,Level 1,12.132557803938544,user_281@example.com
+282,90,Station_90,New York,Level 1,30.53308100745638,user_282@example.com
+283,334,Station_334,New York,Level 2,20.3535460696326,user_283@example.com
+284,199,Station_199,Los Angeles,Level 1,6.479430984738162,user_284@example.com
+285,161,Station_161,San Francisco,Level 2,14.018823992805098,user_285@example.com
+286,26,Station_26,New York,Level 1,61.83012083767203,user_286@example.com
+287,121,Station_121,Houston,Level 1,51.62169093377357,user_287@example.com
+288,301,Station_301,San Francisco,Level 2,13.319017315610488,user_288@example.com
+289,212,Station_212,San Francisco,Level 2,37.6423038507068,user_289@example.com
+290,63,Station_63,Houston,Level 1,70.62045542020036,user_290@example.com
+291,451,Station_451,Chicago,Level 1,74.49108355632316,user_291@example.com
+292,436,Station_436,Houston,DC Fast Charger,32.52486104511656,user_292@example.com
+293,68,Station_68,Houston,Level 1,78.39905610034737,user_293@example.com
+294,253,Station_253,Chicago,Level 1,65.32285347166376,user_294@example.com
+295,410,Station_410,Chicago,DC Fast Charger,30.63992013217628,user_295@example.com
+296,459,Station_459,Chicago,Level 1,78.15878931012135,user_296@example.com
+297,2,Station_2,Chicago,Level 1,5.3378360735216495,user_297@example.com
+298,398,Station_398,Chicago,Level 2,29.318815538897795,user_298@example.com
+299,108,Station_108,Houston,Level 2,23.99396127242872,user_299@example.com
+300,286,Station_286,Los Angeles,Level 2,5.69951995446004,user_300@example.com
+301,49,Station_49,Los Angeles,Level 1,54.52901286506665,user_301@example.com
+302,140,Station_140,New York,Level 2,56.324648784145005,user_302@example.com
+303,218,Station_218,Los Angeles,Level 1,,user_303@example.com
+304,44,Station_44,Los Angeles,DC Fast Charger,65.2254522844251,user_304@example.com
+305,417,Station_417,Houston,Level 2,23.54038391979749,user_305@example.com
+306,269,Station_269,Chicago,DC Fast Charger,18.549702417680702,user_306@example.com
+307,78,Station_78,Chicago,Level 1,20.763187642544253,user_307@example.com
+308,216,Station_216,Houston,Level 1,46.45478115373152,user_308@example.com
+309,382,Station_382,Los Angeles,DC Fast Charger,49.74934189978176,user_309@example.com
+310,98,Station_98,Houston,DC Fast Charger,66.17491556109752,user_310@example.com
+311,236,Station_236,New York,DC Fast Charger,,user_311@example.com
+312,282,Station_282,Chicago,DC Fast Charger,49.83823893887459,user_312@example.com
+313,149,Station_149,San Francisco,Level 2,50.65984701352952,user_313@example.com
+314,412,Station_412,New York,DC Fast Charger,6.885479431723564,user_314@example.com
+315,304,Station_304,New York,Level 2,64.76361325790924,user_315@example.com
+316,484,Station_484,Houston,DC Fast Charger,55.420912210556,user_316@example.com
+317,424,Station_424,Los Angeles,DC Fast Charger,37.77161458127733,user_317@example.com
+318,66,Station_66,Chicago,Level 2,44.06555274761643,user_318@example.com
+319,234,Station_234,San Francisco,Level 1,76.70996422567768,user_319@example.com
+320,457,Station_457,New York,Level 1,6.521023617093562,user_320@example.com
+321,87,Station_87,San Francisco,Level 1,23.019693837419855,user_321@example.com
+322,79,Station_79,Los Angeles,Level 1,62.3191755518106,user_322@example.com
+323,205,Station_205,Los Angeles,Level 2,64.52243106916856,user_323@example.com
+324,279,Station_279,San Francisco,Level 1,52.99672888359278,user_324@example.com
+325,337,Station_337,Chicago,Level 2,74.73938753754207,user_325@example.com
+326,254,Station_254,Los Angeles,Level 2,17.890527690443513,user_326@example.com
+327,304,Station_304,San Francisco,Level 2,18.848843442027324,user_327@example.com
+328,380,Station_380,New York,Level 2,58.37615445163145,user_328@example.com
+329,130,Station_130,San Francisco,Level 2,57.819430587681474,user_329@example.com
+330,84,Station_84,San Francisco,DC Fast Charger,13.3246110441358,user_330@example.com
+331,276,Station_276,Houston,Level 2,14.503455142567915,user_331@example.com
+332,187,Station_187,Los Angeles,Level 1,26.34468459019388,user_332@example.com
+333,46,Station_46,Chicago,Level 2,50.596951312425645,user_333@example.com
+334,387,Station_387,Chicago,Level 1,,user_334@example.com
+335,183,Station_183,Houston,Level 2,103.81260559148436,user_335@example.com
+336,268,Station_268,Chicago,Level 1,70.39888221837178,user_336@example.com
+337,296,Station_296,San Francisco,Level 2,77.17272373807074,user_337@example.com
+338,322,Station_322,Houston,DC Fast Charger,62.19283345936647,user_338@example.com
+339,100,Station_100,New York,Level 1,71.91146876524706,user_339@example.com
+340,78,Station_78,Los Angeles,Level 1,79.97807283663732,user_340@example.com
+341,272,Station_272,Los Angeles,Level 2,5.775919735452496,user_341@example.com
+342,339,Station_339,Los Angeles,Level 1,53.81020176075347,user_342@example.com
+343,162,Station_162,San Francisco,Level 2,38.66237698854864,user_343@example.com
+344,44,Station_44,New York,DC Fast Charger,56.69330149715174,user_344@example.com
+345,238,Station_238,Houston,DC Fast Charger,40.161421851143096,user_345@example.com
+346,134,Station_134,Houston,Level 2,42.51736091943514,user_346@example.com
+347,461,Station_461,Los Angeles,Level 2,29.29844560325747,user_347@example.com
+348,192,Station_192,New York,DC Fast Charger,67.22515101988213,user_348@example.com
+349,356,Station_356,New York,Level 1,,user_349@example.com
+350,278,Station_278,New York,Level 1,76.71844669022504,user_350@example.com
+351,18,Station_18,Chicago,Level 1,60.96907588597162,user_351@example.com
+352,12,Station_12,Chicago,DC Fast Charger,48.32460775397477,user_352@example.com
+353,180,Station_180,Los Angeles,Level 2,65.54082473190631,user_353@example.com
+354,123,Station_123,New York,DC Fast Charger,68.74906948767578,user_354@example.com
+355,246,Station_246,New York,Level 1,67.43740257394747,user_355@example.com
+356,222,Station_222,Houston,Level 2,10.450657832354688,user_356@example.com
+357,373,Station_373,Houston,Level 2,30.80566200277668,user_357@example.com
+358,51,Station_51,Los Angeles,Level 1,62.09565922628094,user_358@example.com
+359,488,Station_488,New York,Level 2,28.864060959229157,user_359@example.com
+360,71,Station_71,Los Angeles,Level 1,33.370542026215475,user_360@example.com
+361,480,Station_480,Houston,DC Fast Charger,73.09045077014305,user_361@example.com
+362,48,Station_48,Houston,Level 2,26.992344080966543,user_362@example.com
+363,19,Station_19,Chicago,Level 1,6.9381938340043,user_363@example.com
+364,262,Station_262,Los Angeles,Level 1,42.29018026674148,user_364@example.com
+365,84,Station_84,Los Angeles,DC Fast Charger,30.036118378192803,user_365@example.com
+366,155,Station_155,New York,Level 2,10.386093782293678,user_366@example.com
+367,53,Station_53,New York,Level 2,45.71947918248383,user_367@example.com
+368,107,Station_107,Chicago,Level 2,24.59962969556764,user_368@example.com
+369,357,Station_357,San Francisco,Level 2,23.1470476755872,user_369@example.com
+370,304,Station_304,San Francisco,DC Fast Charger,52.71641215020086,user_370@example.com
+371,135,Station_135,San Francisco,DC Fast Charger,,user_371@example.com
+372,443,Station_443,Los Angeles,Level 2,68.25299905062542,user_372@example.com
+373,69,Station_69,Los Angeles,Level 1,56.42022999086558,user_373@example.com
+374,11,Station_11,Houston,Level 2,52.90446366869147,user_374@example.com
+375,143,Station_143,Los Angeles,Level 2,28.1635456086215,user_375@example.com
+376,192,Station_192,Los Angeles,Level 1,1.356731546885289,user_376@example.com
+377,387,Station_387,Los Angeles,Level 2,8.93042648458991,user_377@example.com
+378,378,Station_378,Chicago,Level 1,55.78297746472087,user_378@example.com
+379,69,Station_69,Los Angeles,DC Fast Charger,16.67359945711931,user_379@example.com
+380,23,Station_23,New York,Level 1,13.280712325754468,user_380@example.com
+381,181,Station_181,New York,DC Fast Charger,7.668660934509698,user_381@example.com
+382,293,Station_293,Houston,Level 2,,user_382@example.com
+383,9,Station_9,Chicago,Level 1,64.94285706525936,user_383@example.com
+384,271,Station_271,New York,Level 1,70.06077676219795,user_384@example.com
+385,387,Station_387,Chicago,Level 2,,user_385@example.com
+386,93,Station_93,Chicago,DC Fast Charger,46.55965371578422,user_386@example.com
+387,454,Station_454,Houston,Level 1,54.88401335852117,user_387@example.com
+388,17,Station_17,Chicago,Level 1,13.726133739305284,user_388@example.com
+389,154,Station_154,Los Angeles,Level 2,74.2197558575455,user_389@example.com
+390,405,Station_405,Chicago,DC Fast Charger,20.581387676280656,user_390@example.com
+391,328,Station_328,Houston,Level 2,36.047577386304056,user_391@example.com
+392,149,Station_149,Houston,Level 1,31.73575031358406,user_392@example.com
+393,377,Station_377,Houston,Level 2,64.5382469650896,user_393@example.com
+394,267,Station_267,New York,Level 2,41.5686202547537,user_394@example.com
+395,422,Station_422,Los Angeles,DC Fast Charger,34.375669740166174,user_395@example.com
+396,328,Station_328,New York,DC Fast Charger,12.118093232455848,user_396@example.com
+397,106,Station_106,San Francisco,Level 2,48.27254828512783,user_397@example.com
+398,472,Station_472,Los Angeles,Level 2,26.4021039498391,user_398@example.com
+399,381,Station_381,Chicago,Level 2,54.62699762686274,user_399@example.com
+400,35,Station_35,Houston,Level 1,69.44996147928137,user_400@example.com
+401,119,Station_119,San Francisco,DC Fast Charger,66.18914418092677,user_401@example.com
+402,14,Station_14,Los Angeles,Level 1,13.66384250802366,user_402@example.com
+403,14,Station_14,New York,DC Fast Charger,31.810223412630616,user_403@example.com
+404,266,Station_266,Houston,DC Fast Charger,79.46231190835228,user_404@example.com
+405,140,Station_140,New York,Level 1,26.615202038752912,user_405@example.com
+406,294,Station_294,Los Angeles,Level 1,,user_406@example.com
+407,364,Station_364,Los Angeles,Level 2,64.40334432867209,user_407@example.com
+408,119,Station_119,San Francisco,DC Fast Charger,41.58671280364108,user_408@example.com
+409,238,Station_238,Chicago,DC Fast Charger,76.4481598100646,user_409@example.com
+410,34,Station_34,New York,DC Fast Charger,19.89879895108544,user_410@example.com
+411,169,Station_169,San Francisco,Level 2,25.1008625389698,user_411@example.com
+412,10,Station_10,Houston,DC Fast Charger,27.04710323077237,user_412@example.com
+413,122,Station_122,Chicago,DC Fast Charger,30.184684241437047,user_413@example.com
+414,401,Station_401,San Francisco,Level 1,15.342120681093242,user_414@example.com
+415,145,Station_145,New York,Level 1,45.34396447469323,user_415@example.com
+416,451,Station_451,Los Angeles,Level 2,60.26038300407493,user_416@example.com
+417,446,Station_446,Houston,DC Fast Charger,5.650181738384828,user_417@example.com
+418,223,Station_223,New York,Level 2,32.491515817951985,user_418@example.com
+419,371,Station_371,Chicago,Level 1,61.46067458832575,user_419@example.com
+420,257,Station_257,Chicago,DC Fast Charger,41.57891512365271,user_420@example.com
+421,268,Station_268,Los Angeles,DC Fast Charger,41.60286682113125,user_421@example.com
+422,359,Station_359,Los Angeles,Level 2,29.697898464844947,user_422@example.com
+423,4,Station_4,Houston,DC Fast Charger,72.71574852972469,user_423@example.com
+424,426,Station_426,Houston,DC Fast Charger,61.92710360384021,user_424@example.com
+425,397,Station_397,Los Angeles,Level 1,12.666812834895836,user_425@example.com
+426,354,Station_354,Los Angeles,Level 2,78.95506101572013,user_426@example.com
+427,106,Station_106,Chicago,Level 1,64.98220570964298,user_427@example.com
+428,85,Station_85,Los Angeles,Level 2,37.28701875736325,user_428@example.com
+429,214,Station_214,San Francisco,Level 1,72.09484050132289,user_429@example.com
+430,121,Station_121,New York,Level 2,65.75133335346975,user_430@example.com
+431,132,Station_132,Los Angeles,DC Fast Charger,42.86561113214803,user_431@example.com
+432,338,Station_338,Houston,DC Fast Charger,33.39817875530706,user_432@example.com
+433,197,Station_197,San Francisco,Level 2,46.5117702649118,user_433@example.com
+434,19,Station_19,Houston,Level 2,74.54048485931233,user_434@example.com
+435,130,Station_130,San Francisco,Level 2,53.83827205577136,user_435@example.com
+436,12,Station_12,Los Angeles,Level 2,42.46618717006869,user_436@example.com
+437,81,Station_81,New York,DC Fast Charger,,user_437@example.com
+438,330,Station_330,Houston,Level 2,76.49931986653537,user_438@example.com
+439,354,Station_354,San Francisco,DC Fast Charger,5.614874084822165,user_439@example.com
+440,262,Station_262,Chicago,DC Fast Charger,26.46822315749027,user_440@example.com
+441,392,Station_392,Los Angeles,Level 2,6.8738855284034415,user_441@example.com
+442,125,Station_125,New York,DC Fast Charger,21.580915527008145,user_442@example.com
+443,307,Station_307,Los Angeles,Level 2,7.569584209512826,user_443@example.com
+444,267,Station_267,Chicago,DC Fast Charger,49.5455465707554,user_444@example.com
+445,447,Station_447,New York,Level 2,72.83010773877143,user_445@example.com
+446,441,Station_441,Chicago,Level 2,71.12558827151543,user_446@example.com
+447,383,Station_383,Los Angeles,Level 1,36.2444170838149,user_447@example.com
+448,140,Station_140,San Francisco,Level 1,53.39924325525044,user_448@example.com
+449,329,Station_329,Los Angeles,Level 2,5.746444809429853,user_449@example.com
+450,2,Station_2,Los Angeles,Level 1,9.737039612310449,user_450@example.com
+451,8,Station_8,Los Angeles,DC Fast Charger,39.46218311483076,user_451@example.com
+452,250,Station_250,Houston,Level 2,63.83060874636528,user_452@example.com
+453,139,Station_139,Chicago,Level 2,72.94802476319454,user_453@example.com
+454,124,Station_124,Chicago,Level 2,21.097847217832147,user_454@example.com
+455,309,Station_309,Chicago,Level 1,58.7914423257815,user_455@example.com
+456,228,Station_228,Houston,Level 1,65.18392768549774,user_456@example.com
+457,10,Station_10,San Francisco,DC Fast Charger,72.54995630814713,user_457@example.com
+458,469,Station_469,Los Angeles,Level 1,57.55690005797869,user_458@example.com
+459,212,Station_212,San Francisco,Level 1,67.41433642306683,user_459@example.com
+460,112,Station_112,Houston,DC Fast Charger,21.030519654584147,user_460@example.com
+461,8,Station_8,Chicago,Level 2,16.47214029543078,user_461@example.com
+462,292,Station_292,Los Angeles,Level 2,78.30687812670662,user_462@example.com
+463,477,Station_477,New York,DC Fast Charger,38.59965910016511,user_463@example.com
+464,362,Station_362,New York,Level 1,26.566509231569366,user_464@example.com
+465,460,Station_460,San Francisco,DC Fast Charger,23.02231536206597,user_465@example.com
+466,253,Station_253,Chicago,DC Fast Charger,62.04960065177048,user_466@example.com
+467,14,Station_14,New York,Level 2,58.09105214274015,user_467@example.com
+468,240,Station_240,San Francisco,Level 1,63.29716818793051,user_468@example.com
+469,438,Station_438,Houston,Level 2,21.002230102472843,user_469@example.com
+470,242,Station_242,San Francisco,Level 2,36.3229254401527,user_470@example.com
+471,469,Station_469,San Francisco,DC Fast Charger,65.45087828663634,user_471@example.com
+472,342,Station_342,San Francisco,Level 2,46.92333914698138,user_472@example.com
+473,149,Station_149,Los Angeles,Level 2,45.355066305111706,user_473@example.com
+474,236,Station_236,San Francisco,Level 2,44.72944867558798,user_474@example.com
+475,306,Station_306,San Francisco,Level 1,57.859669994397166,user_475@example.com
+476,478,Station_478,Los Angeles,Level 1,25.892596490424456,user_476@example.com
+477,167,Station_167,Los Angeles,Level 2,65.89861180142826,user_477@example.com
+478,20,Station_20,Houston,DC Fast Charger,34.80201788379793,user_478@example.com
+479,216,Station_216,Chicago,DC Fast Charger,18.869451407961307,user_479@example.com
+480,343,Station_343,New York,Level 2,77.34671417127635,user_480@example.com
+481,135,Station_135,New York,Level 1,31.73110320047439,user_481@example.com
+482,393,Station_393,San Francisco,DC Fast Charger,41.27067550637497,user_482@example.com
+483,129,Station_129,Houston,DC Fast Charger,41.95057477332522,user_483@example.com
+484,410,Station_410,San Francisco,Level 1,46.412062022825936,user_484@example.com
+485,422,Station_422,New York,Level 1,21.409576368254196,user_485@example.com
+486,294,Station_294,Los Angeles,DC Fast Charger,54.99600399457137,user_486@example.com
+487,246,Station_246,Chicago,Level 2,7.739028453603041,user_487@example.com
+488,189,Station_189,Houston,DC Fast Charger,11.48343148800489,user_488@example.com
+489,44,Station_44,Los Angeles,Level 1,39.469966222866766,user_489@example.com
+490,86,Station_86,Chicago,Level 1,27.61163115157696,user_490@example.com
+491,44,Station_44,Houston,Level 1,15.254170728009932,user_491@example.com
+492,330,Station_330,Houston,Level 1,45.06853330402873,user_492@example.com
+493,375,Station_375,New York,Level 2,10.155212817693824,user_493@example.com
+494,446,Station_446,Los Angeles,DC Fast Charger,54.99770543084315,user_494@example.com
+495,378,Station_378,Houston,Level 1,64.87047474097292,user_495@example.com
+496,390,Station_390,Houston,Level 1,25.13233553126914,user_496@example.com
+497,145,Station_145,Chicago,Level 1,14.462719261155256,user_497@example.com
+498,51,Station_51,New York,DC Fast Charger,79.41814361458415,user_498@example.com
+499,242,Station_242,San Francisco,Level 1,44.41845305466813,user_499@example.com
+500,294,Station_294,New York,DC Fast Charger,74.02042766018057,user_500@example.com
+501,408,Station_408,San Francisco,Level 2,36.50542214391232,user_501@example.com
+502,51,Station_51,Los Angeles,Level 1,39.0670867855152,user_502@example.com
+503,266,Station_266,Los Angeles,Level 2,63.79396886506549,user_503@example.com
+504,120,Station_120,Houston,DC Fast Charger,67.45124177150385,user_504@example.com
+505,200,Station_200,Los Angeles,Level 2,56.888515995947614,user_505@example.com
+506,405,Station_405,Houston,Level 1,21.819378736342376,user_506@example.com
+507,248,Station_248,New York,Level 2,47.01289216755188,user_507@example.com
+508,70,Station_70,Los Angeles,Level 2,73.61974524719619,user_508@example.com
+509,341,Station_341,New York,Level 2,,user_509@example.com
+510,57,Station_57,New York,Level 2,41.943586371262185,user_510@example.com
+511,382,Station_382,Los Angeles,Level 2,37.1629261473043,user_511@example.com
+512,39,Station_39,New York,DC Fast Charger,34.66100210237426,user_512@example.com
+513,472,Station_472,Los Angeles,DC Fast Charger,,user_513@example.com
+514,289,Station_289,Los Angeles,Level 1,8.891155819549416,user_514@example.com
+515,443,Station_443,Los Angeles,DC Fast Charger,29.379323254386147,user_515@example.com
+516,18,Station_18,San Francisco,DC Fast Charger,6.538370226754212,user_516@example.com
+517,440,Station_440,New York,Level 1,70.38996843882086,user_517@example.com
+518,220,Station_220,Chicago,DC Fast Charger,16.080974332847084,user_518@example.com
+519,313,Station_313,Los Angeles,Level 1,7.557567403210105,user_519@example.com
+520,244,Station_244,New York,Level 1,15.807797227472452,user_520@example.com
+521,352,Station_352,Houston,DC Fast Charger,60.12372287224216,user_521@example.com
+522,460,Station_460,Los Angeles,Level 2,67.93942571536539,user_522@example.com
+523,304,Station_304,Los Angeles,Level 1,70.04034616527528,user_523@example.com
+524,298,Station_298,Chicago,Level 2,68.55546011969274,user_524@example.com
+525,283,Station_283,San Francisco,Level 1,36.56579373074047,user_525@example.com
+526,74,Station_74,San Francisco,DC Fast Charger,20.45364201596675,user_526@example.com
+527,110,Station_110,Los Angeles,Level 2,9.716946683936513,user_527@example.com
+528,180,Station_180,New York,Level 1,61.68434321639767,user_528@example.com
+529,426,Station_426,Houston,DC Fast Charger,28.578878080059383,user_529@example.com
+530,32,Station_32,Houston,Level 2,21.13404477845307,user_530@example.com
+531,234,Station_234,New York,DC Fast Charger,46.76604426109744,user_531@example.com
+532,282,Station_282,Los Angeles,DC Fast Charger,17.759774553770676,user_532@example.com
+533,25,Station_25,Houston,Level 2,79.39006382394219,user_533@example.com
+534,331,Station_331,San Francisco,Level 1,21.069157575738828,user_534@example.com
+535,279,Station_279,New York,Level 1,19.402523927112213,user_535@example.com
+536,226,Station_226,Chicago,DC Fast Charger,,user_536@example.com
+537,57,Station_57,Los Angeles,Level 1,44.87005617634201,user_537@example.com
+538,180,Station_180,New York,Level 2,46.21171801338653,user_538@example.com
+539,232,Station_232,Houston,Level 2,,user_539@example.com
+540,382,Station_382,Los Angeles,DC Fast Charger,57.03840397041998,user_540@example.com
+541,343,Station_343,San Francisco,DC Fast Charger,32.93955896020962,user_541@example.com
+542,477,Station_477,Los Angeles,Level 2,63.023554629150055,user_542@example.com
+543,287,Station_287,Los Angeles,Level 2,33.013974817380586,user_543@example.com
+544,64,Station_64,San Francisco,DC Fast Charger,56.61749580017371,user_544@example.com
+545,455,Station_455,San Francisco,DC Fast Charger,53.17397382318082,user_545@example.com
+546,232,Station_232,Los Angeles,Level 2,51.87067063305462,user_546@example.com
+547,289,Station_289,San Francisco,DC Fast Charger,64.30797977990255,user_547@example.com
+548,213,Station_213,New York,Level 1,4.288320356345183,user_548@example.com
+549,258,Station_258,San Francisco,Level 2,56.72762317734674,user_549@example.com
+550,18,Station_18,San Francisco,Level 2,44.90995546867643,user_550@example.com
+551,175,Station_175,Los Angeles,DC Fast Charger,13.876557599494063,user_551@example.com
+552,417,Station_417,New York,DC Fast Charger,39.37124122897048,user_552@example.com
+553,229,Station_229,Chicago,Level 2,11.75852247006084,user_553@example.com
+554,226,Station_226,Chicago,DC Fast Charger,49.8977884122396,user_554@example.com
+555,84,Station_84,Houston,Level 1,64.60983161155823,user_555@example.com
+556,291,Station_291,San Francisco,DC Fast Charger,12.594888574055725,user_556@example.com
+557,435,Station_435,San Francisco,Level 2,65.5974266945568,user_557@example.com
+558,370,Station_370,New York,DC Fast Charger,8.11244782892836,user_558@example.com
+559,246,Station_246,Chicago,Level 2,48.9611152601949,user_559@example.com
+560,402,Station_402,Houston,Level 1,34.38288065090023,user_560@example.com
+561,110,Station_110,New York,Level 2,52.55689588098792,user_561@example.com
+562,254,Station_254,San Francisco,Level 1,37.23027566973339,user_562@example.com
+563,88,Station_88,Chicago,Level 1,54.78487940320012,user_563@example.com
+564,72,Station_72,Houston,Level 1,37.42669941100735,user_564@example.com
+565,381,Station_381,Los Angeles,Level 1,28.079314202327826,user_565@example.com
+566,30,Station_30,Chicago,Level 1,79.78776885692933,user_566@example.com
+567,172,Station_172,Houston,DC Fast Charger,75.62248861139022,user_567@example.com
+568,309,Station_309,New York,Level 1,48.57848684629363,user_568@example.com
+569,394,Station_394,Los Angeles,DC Fast Charger,60.63745352964948,user_569@example.com
+570,343,Station_343,Houston,DC Fast Charger,66.85109294209524,user_570@example.com
+571,436,Station_436,Houston,DC Fast Charger,32.34799932603372,user_571@example.com
+572,177,Station_177,San Francisco,Level 2,,user_572@example.com
+573,139,Station_139,Chicago,Level 2,67.70594563751288,user_573@example.com
+574,194,Station_194,San Francisco,Level 1,8.383690895109462,user_574@example.com
+575,186,Station_186,Los Angeles,DC Fast Charger,60.939817877399975,user_575@example.com
+576,218,Station_218,Houston,Level 2,,user_576@example.com
+577,164,Station_164,San Francisco,DC Fast Charger,,user_577@example.com
+578,161,Station_161,Chicago,Level 2,7.603711413792093,user_578@example.com
+579,431,Station_431,Los Angeles,DC Fast Charger,70.536636587169,user_579@example.com
+580,13,Station_13,New York,Level 2,73.31591786048328,user_580@example.com
+581,296,Station_296,San Francisco,Level 1,62.86785794966232,user_581@example.com
+582,89,Station_89,Los Angeles,Level 1,14.355208491625932,user_582@example.com
+583,324,Station_324,New York,Level 1,74.7896950755514,user_583@example.com
+584,42,Station_42,San Francisco,DC Fast Charger,41.98075323406805,user_584@example.com
+585,403,Station_403,Los Angeles,Level 1,66.82312116249,user_585@example.com
+586,210,Station_210,Los Angeles,Level 1,47.18840893514874,user_586@example.com
+587,229,Station_229,San Francisco,Level 2,46.29599734888577,user_587@example.com
+588,350,Station_350,Los Angeles,Level 2,37.10851773104313,user_588@example.com
+589,275,Station_275,Houston,Level 2,71.97510217973728,user_589@example.com
+590,442,Station_442,San Francisco,Level 1,,user_590@example.com
+591,279,Station_279,Los Angeles,Level 2,45.134038075505366,user_591@example.com
+592,251,Station_251,New York,Level 2,23.92092196826273,user_592@example.com
+593,310,Station_310,New York,Level 1,40.63092350376829,user_593@example.com
+594,208,Station_208,Houston,Level 2,75.40700953728192,user_594@example.com
+595,321,Station_321,San Francisco,DC Fast Charger,,user_595@example.com
+596,140,Station_140,Los Angeles,Level 2,36.490277883670345,user_596@example.com
+597,280,Station_280,Los Angeles,DC Fast Charger,67.56014288077881,user_597@example.com
+598,34,Station_34,New York,Level 2,52.57470179430345,user_598@example.com
+599,309,Station_309,Houston,Level 2,28.279857147188363,user_599@example.com
+600,392,Station_392,New York,DC Fast Charger,28.86912479595657,user_600@example.com
+601,18,Station_18,New York,Level 1,13.116998507416143,user_601@example.com
+602,57,Station_57,Houston,DC Fast Charger,21.4227595329351,user_602@example.com
+603,112,Station_112,San Francisco,Level 1,45.11780647869832,user_603@example.com
+604,5,Station_5,Los Angeles,Level 2,26.29222408241131,user_604@example.com
+605,410,Station_410,San Francisco,Level 1,51.63684234428119,user_605@example.com
+606,414,Station_414,Chicago,Level 1,44.81719081526413,user_606@example.com
+607,182,Station_182,Chicago,DC Fast Charger,19.362005744810176,user_607@example.com
+608,13,Station_13,Chicago,Level 1,55.39579143864877,user_608@example.com
+609,339,Station_339,Houston,Level 1,22.016443610220865,user_609@example.com
+610,285,Station_285,New York,DC Fast Charger,67.38186056016852,user_610@example.com
+611,259,Station_259,San Francisco,Level 1,68.23834404896303,user_611@example.com
+612,90,Station_90,Los Angeles,Level 1,67.13334039157891,user_612@example.com
+613,104,Station_104,Chicago,DC Fast Charger,42.91893733882982,user_613@example.com
+614,379,Station_379,San Francisco,DC Fast Charger,,user_614@example.com
+615,186,Station_186,Chicago,DC Fast Charger,35.327332248586075,user_615@example.com
+616,250,Station_250,Chicago,Level 1,74.51050318325304,user_616@example.com
+617,255,Station_255,Los Angeles,Level 2,,user_617@example.com
+618,76,Station_76,Houston,DC Fast Charger,49.73870005239731,user_618@example.com
+619,386,Station_386,New York,DC Fast Charger,23.52224181213657,user_619@example.com
+620,459,Station_459,Houston,Level 1,44.95337165292389,user_620@example.com
+621,108,Station_108,San Francisco,Level 2,66.70523645325736,user_621@example.com
+622,156,Station_156,Houston,Level 2,44.06215479055562,user_622@example.com
+623,82,Station_82,San Francisco,Level 1,14.0255330182289,user_623@example.com
+624,77,Station_77,San Francisco,DC Fast Charger,21.76458667261335,user_624@example.com
+625,485,Station_485,New York,Level 1,16.554623964548597,user_625@example.com
+626,470,Station_470,Los Angeles,Level 2,15.474096088332848,user_626@example.com
+627,460,Station_460,New York,DC Fast Charger,43.51234710063929,user_627@example.com
+628,258,Station_258,Houston,Level 2,38.5981394103895,user_628@example.com
+629,127,Station_127,San Francisco,Level 2,45.07891731764474,user_629@example.com
+630,485,Station_485,Chicago,Level 2,58.77314551651613,user_630@example.com
+631,391,Station_391,Chicago,Level 2,65.539397780162,user_631@example.com
+632,282,Station_282,San Francisco,DC Fast Charger,79.21399696256503,user_632@example.com
+633,474,Station_474,New York,DC Fast Charger,62.91943734898983,user_633@example.com
+634,88,Station_88,Los Angeles,DC Fast Charger,18.39971040043272,user_634@example.com
+635,204,Station_204,New York,Level 1,47.49230024226053,user_635@example.com
+636,16,Station_16,San Francisco,DC Fast Charger,21.47142841095029,user_636@example.com
+637,151,Station_151,San Francisco,Level 2,21.86794779138668,user_637@example.com
+638,424,Station_424,Los Angeles,Level 2,78.23764802345093,user_638@example.com
+639,254,Station_254,Houston,DC Fast Charger,79.75044564145941,user_639@example.com
+640,188,Station_188,Houston,DC Fast Charger,66.89909636313753,user_640@example.com
+641,329,Station_329,Los Angeles,Level 1,68.06928828300951,user_641@example.com
+642,32,Station_32,Houston,DC Fast Charger,40.05179662487088,user_642@example.com
+643,271,Station_271,Chicago,Level 1,77.6778219726915,user_643@example.com
+644,485,Station_485,Houston,DC Fast Charger,38.36041212940863,user_644@example.com
+645,397,Station_397,Houston,Level 1,6.337534264521747,user_645@example.com
+646,5,Station_5,Houston,DC Fast Charger,6.978771350415376,user_646@example.com
+647,459,Station_459,Chicago,DC Fast Charger,30.549130796547445,user_647@example.com
+648,330,Station_330,Houston,DC Fast Charger,62.42036136933443,user_648@example.com
+649,308,Station_308,Chicago,Level 1,34.79315986001264,user_649@example.com
+650,333,Station_333,Los Angeles,Level 2,58.45788451376784,user_650@example.com
+651,169,Station_169,New York,Level 1,50.16265770416625,user_651@example.com
+652,181,Station_181,Los Angeles,DC Fast Charger,76.06503880500838,user_652@example.com
+653,366,Station_366,New York,Level 2,51.21630472206044,user_653@example.com
+654,178,Station_178,Los Angeles,Level 1,39.67713381108,user_654@example.com
+655,143,Station_143,New York,Level 1,68.2690209195155,user_655@example.com
+656,362,Station_362,New York,Level 2,30.550011561630846,user_656@example.com
+657,248,Station_248,San Francisco,DC Fast Charger,44.75866737764865,user_657@example.com
+658,127,Station_127,New York,Level 2,59.15730847009105,user_658@example.com
+659,263,Station_263,New York,DC Fast Charger,57.14555997083127,user_659@example.com
+660,40,Station_40,San Francisco,Level 2,,user_660@example.com
+661,412,Station_412,Houston,Level 1,23.83688010187143,user_661@example.com
+662,416,Station_416,Houston,Level 1,29.349595038889557,user_662@example.com
+663,355,Station_355,San Francisco,Level 1,47.060925633313786,user_663@example.com
+664,255,Station_255,Chicago,DC Fast Charger,27.1701708128166,user_664@example.com
+665,143,Station_143,New York,DC Fast Charger,48.94232025145676,user_665@example.com
+666,240,Station_240,New York,Level 2,19.146538928197334,user_666@example.com
+667,228,Station_228,San Francisco,DC Fast Charger,58.19728526882489,user_667@example.com
+668,341,Station_341,San Francisco,DC Fast Charger,65.20093720294392,user_668@example.com
+669,198,Station_198,Chicago,Level 2,51.14211521001526,user_669@example.com
+670,65,Station_65,Houston,DC Fast Charger,69.71594630744188,user_670@example.com
+671,388,Station_388,Los Angeles,Level 2,41.97718283907795,user_671@example.com
+672,11,Station_11,Houston,DC Fast Charger,69.42235104080157,user_672@example.com
+673,108,Station_108,New York,DC Fast Charger,78.98357945200523,user_673@example.com
+674,26,Station_26,San Francisco,Level 1,8.527929006106092,user_674@example.com
+675,445,Station_445,Chicago,DC Fast Charger,54.860003290031365,user_675@example.com
+676,421,Station_421,Houston,Level 2,48.50288659256919,user_676@example.com
+677,151,Station_151,Chicago,Level 2,52.53257448488719,user_677@example.com
+678,221,Station_221,Houston,Level 1,45.47118879513778,user_678@example.com
+679,341,Station_341,New York,Level 2,34.6802647525039,user_679@example.com
+680,496,Station_496,Los Angeles,Level 1,5.356309335174382,user_680@example.com
+681,237,Station_237,Chicago,DC Fast Charger,27.28221643798108,user_681@example.com
+682,237,Station_237,Chicago,Level 1,11.514718098963709,user_682@example.com
+683,497,Station_497,Los Angeles,DC Fast Charger,9.44816711008226,user_683@example.com
+684,219,Station_219,Chicago,Level 2,53.104493654248735,user_684@example.com
+685,487,Station_487,Chicago,Level 1,28.788056755331933,user_685@example.com
+686,424,Station_424,Houston,Level 2,51.20692408624951,user_686@example.com
+687,461,Station_461,Houston,Level 2,7.275443511373867,user_687@example.com
+688,151,Station_151,Los Angeles,Level 2,,user_688@example.com
+689,123,Station_123,New York,Level 2,74.34970162186968,user_689@example.com
+690,144,Station_144,Chicago,Level 2,79.96222628140413,user_690@example.com
+691,478,Station_478,New York,Level 1,57.23283445266599,user_691@example.com
+692,189,Station_189,Los Angeles,Level 2,39.223093374363,user_692@example.com
+693,255,Station_255,Los Angeles,Level 1,10.420110802780291,user_693@example.com
+694,68,Station_68,Houston,Level 1,47.19744469005413,user_694@example.com
+695,104,Station_104,Chicago,Level 1,64.450811584597,user_695@example.com
+696,336,Station_336,San Francisco,Level 2,37.84729729719263,user_696@example.com
+697,159,Station_159,Los Angeles,Level 2,,user_697@example.com
+698,309,Station_309,Chicago,Level 1,79.26318452230387,user_698@example.com
+699,362,Station_362,New York,Level 2,38.61710108945668,user_699@example.com
+700,409,Station_409,Houston,Level 1,24.401133035107133,user_700@example.com
+701,300,Station_300,New York,Level 2,26.179783257937025,user_701@example.com
+702,396,Station_396,Los Angeles,Level 2,,user_702@example.com
+703,90,Station_90,Los Angeles,Level 1,28.68467333811884,user_703@example.com
+704,357,Station_357,New York,Level 2,34.72671289756062,user_704@example.com
+705,256,Station_256,Los Angeles,Level 1,56.65756369693637,user_705@example.com
+706,496,Station_496,Chicago,Level 1,5.583797770172537,user_706@example.com
+707,353,Station_353,Los Angeles,Level 2,9.669665590124442,user_707@example.com
+708,220,Station_220,Houston,Level 2,42.74479256756108,user_708@example.com
+709,9,Station_9,Chicago,Level 1,58.281853729008496,user_709@example.com
+710,12,Station_12,San Francisco,Level 1,47.88862466678341,user_710@example.com
+711,325,Station_325,Los Angeles,Level 1,10.55815619752912,user_711@example.com
+712,438,Station_438,Los Angeles,DC Fast Charger,12.12848439962642,user_712@example.com
+713,244,Station_244,Houston,Level 2,45.9092521544369,user_713@example.com
+714,182,Station_182,Houston,DC Fast Charger,8.115370261050328,user_714@example.com
+715,284,Station_284,New York,Level 1,9.623141257761764,user_715@example.com
+716,312,Station_312,New York,DC Fast Charger,27.8542104539734,user_716@example.com
+717,99,Station_99,New York,Level 1,23.2226343840928,user_717@example.com
+718,197,Station_197,Houston,DC Fast Charger,21.308572550577523,user_718@example.com
+719,482,Station_482,New York,DC Fast Charger,77.45749045486116,user_719@example.com
+720,366,Station_366,New York,Level 2,32.25299063735733,user_720@example.com
+721,226,Station_226,San Francisco,Level 2,17.929285125178676,user_721@example.com
+722,333,Station_333,New York,DC Fast Charger,77.29578007017075,user_722@example.com
+723,103,Station_103,Los Angeles,Level 1,26.493008140946493,user_723@example.com
+724,106,Station_106,Houston,Level 2,55.30273056094204,user_724@example.com
+725,365,Station_365,Chicago,DC Fast Charger,10.192259430922377,user_725@example.com
+726,368,Station_368,San Francisco,Level 1,62.63400990213397,user_726@example.com
+727,58,Station_58,Houston,Level 2,36.22941276064402,user_727@example.com
+728,78,Station_78,Houston,DC Fast Charger,12.350406115320627,user_728@example.com
+729,75,Station_75,Los Angeles,Level 1,28.248510232660248,user_729@example.com
+730,42,Station_42,New York,Level 1,53.18988765045248,user_730@example.com
+731,422,Station_422,Los Angeles,DC Fast Charger,63.97196694472084,user_731@example.com
+732,324,Station_324,New York,Level 1,48.66355521084799,user_732@example.com
+733,181,Station_181,New York,DC Fast Charger,51.16176878981536,user_733@example.com
+734,33,Station_33,Houston,Level 1,68.24465321163233,user_734@example.com
+735,71,Station_71,New York,DC Fast Charger,70.3848328268497,user_735@example.com
+736,56,Station_56,San Francisco,Level 2,56.55292752021,user_736@example.com
+737,105,Station_105,San Francisco,Level 1,16.827771594461893,user_737@example.com
+738,200,Station_200,San Francisco,DC Fast Charger,76.46827351726323,user_738@example.com
+739,101,Station_101,Houston,DC Fast Charger,6.0651617128073525,user_739@example.com
+740,256,Station_256,Los Angeles,Level 1,10.137709442892056,user_740@example.com
+741,307,Station_307,Chicago,Level 2,62.5376105258264,user_741@example.com
+742,74,Station_74,New York,DC Fast Charger,,user_742@example.com
+743,171,Station_171,Chicago,Level 2,16.497212038654055,user_743@example.com
+744,377,Station_377,Los Angeles,Level 1,9.127828166953716,user_744@example.com
+745,143,Station_143,Los Angeles,Level 2,43.99985930276914,user_745@example.com
+746,166,Station_166,Houston,Level 1,41.76664809903056,user_746@example.com
+747,399,Station_399,San Francisco,DC Fast Charger,6.695332951941997,user_747@example.com
+748,261,Station_261,San Francisco,Level 2,69.4391779041177,user_748@example.com
+749,221,Station_221,Los Angeles,Level 1,38.711207157580986,user_749@example.com
+750,83,Station_83,Houston,DC Fast Charger,57.97765788877307,user_750@example.com
+751,182,Station_182,Houston,Level 2,74.107522176834,user_751@example.com
+752,307,Station_307,New York,Level 1,40.319061981322655,user_752@example.com
+753,10,Station_10,San Francisco,Level 2,47.19807479360746,user_753@example.com
+754,396,Station_396,Los Angeles,DC Fast Charger,22.515635144477624,user_754@example.com
+755,4,Station_4,Chicago,DC Fast Charger,68.26093768441355,user_755@example.com
+756,351,Station_351,San Francisco,Level 1,73.5059703623024,user_756@example.com
+757,402,Station_402,New York,Level 2,73.86936259559798,user_757@example.com
+758,336,Station_336,Houston,Level 2,64.37713244013099,user_758@example.com
+759,488,Station_488,Los Angeles,DC Fast Charger,12.010095267833266,user_759@example.com
+760,292,Station_292,San Francisco,Level 2,36.226212409732376,user_760@example.com
+761,281,Station_281,Chicago,Level 2,28.84698737447133,user_761@example.com
+762,215,Station_215,New York,Level 2,76.58011323732995,user_762@example.com
+763,460,Station_460,New York,Level 1,74.13419248313946,user_763@example.com
+764,98,Station_98,San Francisco,DC Fast Charger,73.80921664182601,user_764@example.com
+765,420,Station_420,Chicago,Level 1,35.02666957024688,user_765@example.com
+766,101,Station_101,New York,DC Fast Charger,,user_766@example.com
+767,451,Station_451,Los Angeles,Level 1,35.89954921191294,user_767@example.com
+768,9,Station_9,New York,Level 1,48.330182762063146,user_768@example.com
+769,61,Station_61,Chicago,Level 1,53.71493232990424,user_769@example.com
+770,309,Station_309,Houston,Level 2,15.5583755009174,user_770@example.com
+771,146,Station_146,Houston,DC Fast Charger,40.736704801536966,user_771@example.com
+772,427,Station_427,San Francisco,Level 1,11.579770802296697,user_772@example.com
+773,419,Station_419,Chicago,Level 2,39.67667007009968,user_773@example.com
+774,63,Station_63,New York,Level 1,5.755335112421237,user_774@example.com
+775,121,Station_121,New York,Level 2,54.48656320200461,user_775@example.com
+776,226,Station_226,Houston,Level 1,20.51871405095877,user_776@example.com
+777,105,Station_105,Houston,DC Fast Charger,13.587964735173609,user_777@example.com
+778,462,Station_462,Los Angeles,DC Fast Charger,19.97640696261344,user_778@example.com
+779,260,Station_260,Houston,Level 1,73.37136541275711,user_779@example.com
+780,349,Station_349,Los Angeles,Level 1,75.62261390550266,user_780@example.com
+781,425,Station_425,New York,Level 1,15.567795776598764,user_781@example.com
+782,255,Station_255,Los Angeles,Level 1,36.63162352131471,user_782@example.com
+783,429,Station_429,Los Angeles,Level 2,6.307290912653444,user_783@example.com
+784,434,Station_434,San Francisco,DC Fast Charger,52.183521493408925,user_784@example.com
+785,207,Station_207,Houston,Level 2,,user_785@example.com
+786,28,Station_28,Los Angeles,DC Fast Charger,17.218744475121433,user_786@example.com
+787,170,Station_170,New York,Level 1,48.14596961410625,user_787@example.com
+788,336,Station_336,Chicago,DC Fast Charger,25.12116466546159,user_788@example.com
+789,76,Station_76,Los Angeles,Level 1,67.90283934003946,user_789@example.com
+790,116,Station_116,Houston,Level 1,43.254517140810776,user_790@example.com
+791,69,Station_69,San Francisco,Level 2,62.61550758556181,user_791@example.com
+792,354,Station_354,New York,DC Fast Charger,43.825900117321794,user_792@example.com
+793,234,Station_234,San Francisco,Level 2,31.187028992431237,user_793@example.com
+794,1,Station_1,Chicago,Level 2,74.82644569097782,user_794@example.com
+795,167,Station_167,Los Angeles,Level 2,,user_795@example.com
+796,352,Station_352,Los Angeles,Level 2,78.89524910756762,user_796@example.com
+797,218,Station_218,Houston,DC Fast Charger,10.241885891596077,user_797@example.com
+798,273,Station_273,Los Angeles,DC Fast Charger,5.144893571862889,user_798@example.com
+799,368,Station_368,New York,Level 2,59.922814416459936,user_799@example.com
+800,251,Station_251,Chicago,DC Fast Charger,8.353019856414647,user_800@example.com
+801,347,Station_347,San Francisco,Level 1,40.76283311435537,user_801@example.com
+802,344,Station_344,Chicago,DC Fast Charger,18.89056337329201,user_802@example.com
+803,419,Station_419,Los Angeles,Level 2,42.79819075847415,user_803@example.com
+804,174,Station_174,San Francisco,Level 1,12.814363147239058,user_804@example.com
+805,170,Station_170,Houston,Level 1,8.918418777562092,user_805@example.com
+806,246,Station_246,Chicago,Level 1,0.1211432950427712,user_806@example.com
+807,423,Station_423,San Francisco,Level 1,10.9113557932088,user_807@example.com
+808,90,Station_90,San Francisco,Level 1,7.8588683891368705,user_808@example.com
+809,49,Station_49,San Francisco,Level 2,70.17135459506048,user_809@example.com
+810,446,Station_446,New York,Level 2,15.187432130994928,user_810@example.com
+811,294,Station_294,Chicago,Level 1,77.8613161281733,user_811@example.com
+812,407,Station_407,San Francisco,Level 2,37.189293647002586,user_812@example.com
+813,150,Station_150,Chicago,DC Fast Charger,25.71192392672169,user_813@example.com
+814,132,Station_132,San Francisco,Level 2,9.086246707562893,user_814@example.com
+815,433,Station_433,Houston,DC Fast Charger,27.00471085893386,user_815@example.com
+816,59,Station_59,Houston,Level 2,6.661747206218264,user_816@example.com
+817,457,Station_457,Houston,DC Fast Charger,53.648424429654725,user_817@example.com
+818,324,Station_324,Los Angeles,DC Fast Charger,40.65621778280107,user_818@example.com
+819,199,Station_199,San Francisco,Level 1,71.16250433532748,user_819@example.com
+820,215,Station_215,Los Angeles,Level 2,16.111111317085957,user_820@example.com
+821,386,Station_386,Chicago,Level 1,58.91061762118734,user_821@example.com
+822,49,Station_49,Los Angeles,DC Fast Charger,8.75167001874184,user_822@example.com
+823,472,Station_472,Chicago,Level 2,31.888072339650037,user_823@example.com
+824,232,Station_232,Chicago,Level 2,64.04377270020223,user_824@example.com
+825,247,Station_247,Chicago,Level 1,56.0452902589365,user_825@example.com
+826,382,Station_382,Los Angeles,Level 2,10.317872226345198,user_826@example.com
+827,479,Station_479,San Francisco,Level 2,72.79850067918807,user_827@example.com
+828,239,Station_239,Los Angeles,Level 2,67.88757428323595,user_828@example.com
+829,415,Station_415,San Francisco,DC Fast Charger,41.24835865229704,user_829@example.com
+830,367,Station_367,San Francisco,Level 1,35.024111186545994,user_830@example.com
+831,168,Station_168,Chicago,DC Fast Charger,54.91320565679101,user_831@example.com
+832,48,Station_48,Los Angeles,Level 1,51.02335300165405,user_832@example.com
+833,51,Station_51,San Francisco,DC Fast Charger,62.63359253447133,user_833@example.com
+834,299,Station_299,Houston,DC Fast Charger,,user_834@example.com
+835,98,Station_98,San Francisco,DC Fast Charger,42.222770261485735,user_835@example.com
+836,439,Station_439,Houston,DC Fast Charger,60.08034819074353,user_836@example.com
+837,216,Station_216,Los Angeles,Level 1,47.20021555132315,user_837@example.com
+838,177,Station_177,Los Angeles,Level 2,58.55989952016146,user_838@example.com
+839,380,Station_380,Los Angeles,Level 1,18.529060697578466,user_839@example.com
+840,474,Station_474,San Francisco,Level 2,20.026313858630445,user_840@example.com
+841,80,Station_80,New York,Level 1,61.12076151907815,user_841@example.com
+842,185,Station_185,San Francisco,Level 1,47.99575165649026,user_842@example.com
+843,367,Station_367,San Francisco,Level 1,60.70480470905676,user_843@example.com
+844,461,Station_461,Chicago,Level 1,35.84392988591518,user_844@example.com
+845,399,Station_399,Chicago,DC Fast Charger,77.26132089921293,user_845@example.com
+846,27,Station_27,San Francisco,Level 1,44.87557340248862,user_846@example.com
+847,452,Station_452,Houston,Level 1,61.56734925121615,user_847@example.com
+848,464,Station_464,Chicago,Level 2,24.797064059890324,user_848@example.com
+849,448,Station_448,San Francisco,DC Fast Charger,73.07614589143651,user_849@example.com
+850,478,Station_478,New York,DC Fast Charger,6.535781252164842,user_850@example.com
+851,492,Station_492,Houston,Level 1,22.572882450288343,user_851@example.com
+852,414,Station_414,Los Angeles,Level 1,56.51645587863174,user_852@example.com
+853,420,Station_420,San Francisco,DC Fast Charger,,user_853@example.com
+854,195,Station_195,San Francisco,DC Fast Charger,76.44990710737748,user_854@example.com
+855,214,Station_214,Houston,Level 1,51.492346382026085,user_855@example.com
+856,369,Station_369,Chicago,Level 1,55.78259572680235,user_856@example.com
+857,342,Station_342,Chicago,Level 1,67.77665979862479,user_857@example.com
+858,114,Station_114,Chicago,Level 2,37.05562159282365,user_858@example.com
+859,242,Station_242,Los Angeles,DC Fast Charger,40.271295219742754,user_859@example.com
+860,124,Station_124,Houston,Level 2,44.76974192287614,user_860@example.com
+861,305,Station_305,Houston,DC Fast Charger,38.2137648106408,user_861@example.com
+862,76,Station_76,Chicago,DC Fast Charger,65.12042574597822,user_862@example.com
+863,311,Station_311,Chicago,DC Fast Charger,64.0000211656222,user_863@example.com
+864,469,Station_469,New York,DC Fast Charger,5.01388964715821,user_864@example.com
+865,312,Station_312,New York,DC Fast Charger,49.9789258332708,user_865@example.com
+866,196,Station_196,San Francisco,Level 1,,user_866@example.com
+867,351,Station_351,San Francisco,Level 2,74.93688348332599,user_867@example.com
+868,44,Station_44,Houston,Level 2,40.257196883863706,user_868@example.com
+869,415,Station_415,Houston,DC Fast Charger,51.20288962549678,user_869@example.com
+870,186,Station_186,Los Angeles,Level 2,54.884964513779416,user_870@example.com
+871,343,Station_343,Los Angeles,Level 2,50.61599542846814,user_871@example.com
+872,246,Station_246,New York,Level 1,55.655332785147046,user_872@example.com
+873,437,Station_437,San Francisco,DC Fast Charger,48.75767260331637,user_873@example.com
+874,84,Station_84,New York,Level 1,72.95818104852783,user_874@example.com
+875,207,Station_207,New York,Level 2,58.11274413766781,user_875@example.com
+876,151,Station_151,San Francisco,DC Fast Charger,56.52037667500273,user_876@example.com
+877,156,Station_156,Los Angeles,DC Fast Charger,,user_877@example.com
+878,16,Station_16,San Francisco,DC Fast Charger,28.780491407276823,user_878@example.com
+879,165,Station_165,Chicago,DC Fast Charger,9.04773210705438,user_879@example.com
+880,405,Station_405,Chicago,DC Fast Charger,51.08539266561558,user_880@example.com
+881,463,Station_463,Chicago,DC Fast Charger,36.26259614170952,user_881@example.com
+882,145,Station_145,Houston,Level 1,77.45420995738992,user_882@example.com
+883,498,Station_498,Los Angeles,Level 1,68.21934425725472,user_883@example.com
+884,37,Station_37,Los Angeles,Level 2,57.67538255763964,user_884@example.com
+885,333,Station_333,Houston,DC Fast Charger,20.17078858180017,user_885@example.com
+886,403,Station_403,New York,DC Fast Charger,78.16770975170616,user_886@example.com
+887,414,Station_414,Chicago,Level 1,76.95348907902107,user_887@example.com
+888,45,Station_45,Chicago,Level 2,62.74942109140281,user_888@example.com
+889,402,Station_402,New York,Level 2,47.63041181980813,user_889@example.com
+890,206,Station_206,San Francisco,DC Fast Charger,51.737131530843484,user_890@example.com
+891,62,Station_62,San Francisco,Level 2,41.88651470928026,user_891@example.com
+892,420,Station_420,Los Angeles,Level 2,71.95569072472664,user_892@example.com
+893,356,Station_356,Houston,DC Fast Charger,39.93276466234457,user_893@example.com
+894,468,Station_468,Los Angeles,DC Fast Charger,30.576281983940227,user_894@example.com
+895,308,Station_308,San Francisco,DC Fast Charger,73.60654260034698,user_895@example.com
+896,19,Station_19,New York,Level 1,14.10985781803456,user_896@example.com
+897,365,Station_365,Los Angeles,DC Fast Charger,38.957609713355055,user_897@example.com
+898,300,Station_300,Chicago,Level 2,60.71815399652918,user_898@example.com
+899,7,Station_7,Chicago,Level 1,79.2780822184147,user_899@example.com
+900,249,Station_249,New York,Level 2,30.27520935029439,user_900@example.com
+901,428,Station_428,San Francisco,Level 1,,user_901@example.com
+902,117,Station_117,Chicago,DC Fast Charger,50.92256838738107,user_902@example.com
+903,68,Station_68,Chicago,Level 2,58.92443565485458,user_903@example.com
+904,34,Station_34,Houston,Level 1,6.268235994227531,user_904@example.com
+905,194,Station_194,Los Angeles,Level 2,13.089183211513587,user_905@example.com
+906,325,Station_325,San Francisco,DC Fast Charger,31.102261453118967,user_906@example.com
+907,55,Station_55,Los Angeles,Level 1,,user_907@example.com
+908,266,Station_266,San Francisco,Level 2,27.694411449808683,user_908@example.com
+909,480,Station_480,Chicago,Level 1,50.51448558506964,user_909@example.com
+910,42,Station_42,Houston,DC Fast Charger,20.84637781774533,user_910@example.com
+911,297,Station_297,Los Angeles,Level 1,45.61965970987572,user_911@example.com
+912,461,Station_461,Chicago,Level 1,39.6867657804195,user_912@example.com
+913,231,Station_231,San Francisco,Level 2,6.818019426679227,user_913@example.com
+914,453,Station_453,Los Angeles,Level 1,55.17152825512059,user_914@example.com
+915,378,Station_378,Los Angeles,DC Fast Charger,152.23875799921288,user_915@example.com
+916,394,Station_394,Chicago,Level 2,60.28854286251064,user_916@example.com
+917,10,Station_10,Los Angeles,Level 1,16.376371083048106,user_917@example.com
+918,358,Station_358,Houston,DC Fast Charger,37.610115032737085,user_918@example.com
+919,475,Station_475,Houston,DC Fast Charger,38.00957724097448,user_919@example.com
+920,444,Station_444,Chicago,Level 1,51.89127939896392,user_920@example.com
+921,128,Station_128,San Francisco,Level 1,9.889982502961283,user_921@example.com
+922,179,Station_179,Chicago,Level 2,73.62743176033132,user_922@example.com
+923,405,Station_405,Houston,DC Fast Charger,10.336644191193582,user_923@example.com
+924,392,Station_392,New York,DC Fast Charger,69.10595990230438,user_924@example.com
+925,193,Station_193,New York,DC Fast Charger,18.30737391871987,user_925@example.com
+926,92,Station_92,Los Angeles,Level 1,41.74488149336455,user_926@example.com
+927,369,Station_369,Los Angeles,Level 1,,user_927@example.com
+928,231,Station_231,New York,Level 1,39.152310092112536,user_928@example.com
+929,78,Station_78,Houston,Level 2,37.1185672622842,user_929@example.com
+930,85,Station_85,Los Angeles,DC Fast Charger,35.34544122101473,user_930@example.com
+931,30,Station_30,Chicago,DC Fast Charger,18.034377951520995,user_931@example.com
+932,213,Station_213,Chicago,Level 1,,user_932@example.com
+933,49,Station_49,Houston,Level 2,45.6603131979625,user_933@example.com
+934,265,Station_265,Los Angeles,Level 2,37.97418005443737,user_934@example.com
+935,145,Station_145,Chicago,Level 2,45.393753939065256,user_935@example.com
+936,69,Station_69,Los Angeles,Level 2,29.98141610704047,user_936@example.com
+937,58,Station_58,Los Angeles,Level 2,6.006718634009571,user_937@example.com
+938,185,Station_185,Chicago,Level 1,6.623592694043594,user_938@example.com
+939,62,Station_62,New York,Level 1,11.431328818332826,user_939@example.com
+940,479,Station_479,Chicago,Level 1,78.93551157563188,user_940@example.com
+941,308,Station_308,Houston,DC Fast Charger,58.74152298342496,user_941@example.com
+942,445,Station_445,San Francisco,Level 2,68.8333119385666,user_942@example.com
+943,296,Station_296,Chicago,Level 2,59.21757555858335,user_943@example.com
+944,166,Station_166,Los Angeles,DC Fast Charger,40.85727641136661,user_944@example.com
+945,171,Station_171,Los Angeles,Level 2,56.06964024826272,user_945@example.com
+946,63,Station_63,Chicago,Level 2,78.23675255331868,user_946@example.com
+947,147,Station_147,San Francisco,Level 2,17.47337751568118,user_947@example.com
+948,484,Station_484,Chicago,Level 2,26.22106760279984,user_948@example.com
+949,306,Station_306,San Francisco,Level 2,70.09733350116187,user_949@example.com
+950,161,Station_161,San Francisco,Level 1,55.40858450740993,user_950@example.com
+951,141,Station_141,Houston,Level 2,33.47231506142258,user_951@example.com
+952,334,Station_334,Los Angeles,Level 1,53.57520170906194,user_952@example.com
+953,97,Station_97,Los Angeles,Level 1,11.28842885033608,user_953@example.com
+954,446,Station_446,San Francisco,Level 1,6.269100759870733,user_954@example.com
+955,221,Station_221,Los Angeles,Level 1,42.95272026706106,user_955@example.com
+956,43,Station_43,New York,DC Fast Charger,43.24493715557364,user_956@example.com
+957,433,Station_433,San Francisco,Level 1,12.442167206200743,user_957@example.com
+958,292,Station_292,Los Angeles,DC Fast Charger,29.18339676386404,user_958@example.com
+959,378,Station_378,New York,DC Fast Charger,74.18267082528274,user_959@example.com
+960,108,Station_108,Houston,Level 1,72.08924276832295,user_960@example.com
+961,266,Station_266,Los Angeles,Level 2,25.32972426052728,user_961@example.com
+962,95,Station_95,New York,Level 2,58.50930203255331,user_962@example.com
+963,262,Station_262,Chicago,Level 1,76.57770216711769,user_963@example.com
+964,313,Station_313,Chicago,Level 1,32.02408532686721,user_964@example.com
+965,385,Station_385,New York,DC Fast Charger,63.43204575363278,user_965@example.com
+966,71,Station_71,San Francisco,DC Fast Charger,8.259211353059325,user_966@example.com
+967,442,Station_442,San Francisco,Level 2,65.03081468702587,user_967@example.com
+968,219,Station_219,Los Angeles,DC Fast Charger,39.18998751353248,user_968@example.com
+969,21,Station_21,Chicago,DC Fast Charger,79.3573768668566,user_969@example.com
+970,92,Station_92,San Francisco,Level 1,76.66382798129307,user_970@example.com
+971,127,Station_127,San Francisco,DC Fast Charger,54.31762293384593,user_971@example.com
+972,80,Station_80,Chicago,DC Fast Charger,31.55147285240084,user_972@example.com
+973,312,Station_312,Houston,DC Fast Charger,45.81366156734756,user_973@example.com
+974,238,Station_238,San Francisco,Level 2,60.38629791395793,user_974@example.com
+975,471,Station_471,New York,Level 1,32.598880789009,user_975@example.com
+976,372,Station_372,Los Angeles,Level 2,0.0457718422773702,user_976@example.com
+977,404,Station_404,San Francisco,Level 1,53.39896875032125,user_977@example.com
+978,486,Station_486,San Francisco,Level 1,73.45257577678328,user_978@example.com
+979,182,Station_182,Houston,DC Fast Charger,75.52338506958138,user_979@example.com
+980,25,Station_25,New York,Level 2,,user_980@example.com
+981,156,Station_156,Los Angeles,Level 2,65.03863434488625,user_981@example.com
+982,5,Station_5,San Francisco,DC Fast Charger,63.991170227375775,user_982@example.com
+983,120,Station_120,Los Angeles,Level 2,65.93421330641783,user_983@example.com
+984,277,Station_277,Chicago,Level 1,26.75691987130609,user_984@example.com
+985,18,Station_18,San Francisco,Level 1,8.823831028083502,user_985@example.com
+986,431,Station_431,San Francisco,Level 1,73.78086491491091,user_986@example.com
+987,198,Station_198,Chicago,DC Fast Charger,26.510946858011508,user_987@example.com
+988,57,Station_57,Houston,Level 2,77.63851676623986,user_988@example.com
+989,93,Station_93,San Francisco,Level 1,78.13016919490377,user_989@example.com
+990,19,Station_19,Los Angeles,DC Fast Charger,5.602389790671721,user_990@example.com
+991,384,Station_384,New York,Level 1,20.09377734133772,user_991@example.com
+992,353,Station_353,Los Angeles,Level 1,40.27604440348503,user_992@example.com
+993,193,Station_193,Houston,Level 2,53.95698169820941,user_993@example.com
+994,237,Station_237,New York,DC Fast Charger,60.61379392452427,user_994@example.com
+995,387,Station_387,Los Angeles,Level 1,63.30842211900583,user_995@example.com
+996,426,Station_426,Los Angeles,Level 1,38.60563636862258,user_996@example.com
+997,277,Station_277,Chicago,DC Fast Charger,65.60582507754691,user_997@example.com
+998,227,Station_227,Houston,DC Fast Charger,46.61987332807575,user_998@example.com
+999,233,Station_233,Chicago,Level 2,49.363214910123695,user_999@example.com
+1000,40,Station_40,New York,Level 1,24.87454059878397,user_1000@example.com
+1001,323,Station_323,Chicago,Level 2,54.36218573947502,user_1001@example.com
+1002,153,Station_153,Houston,Level 1,6.443672288667047,user_1002@example.com
+1003,127,Station_127,San Francisco,Level 2,28.215649389656605,user_1003@example.com
+1004,237,Station_237,San Francisco,Level 1,42.2855347814151,user_1004@example.com
+1005,486,Station_486,New York,DC Fast Charger,76.1733008089697,user_1005@example.com
+1006,493,Station_493,San Francisco,Level 2,34.99715934379533,user_1006@example.com
+1007,55,Station_55,Chicago,DC Fast Charger,26.509679689140484,user_1007@example.com
+1008,468,Station_468,New York,Level 1,34.95512440558501,user_1008@example.com
+1009,436,Station_436,Houston,DC Fast Charger,62.0462303749696,user_1009@example.com
+1010,172,Station_172,New York,Level 2,69.8745479772151,user_1010@example.com
+1011,109,Station_109,New York,Level 2,10.43167346455136,user_1011@example.com
+1012,354,Station_354,Los Angeles,DC Fast Charger,46.53802191715521,user_1012@example.com
+1013,469,Station_469,Los Angeles,Level 1,53.20639354696602,user_1013@example.com
+1014,184,Station_184,New York,Level 2,,user_1014@example.com
+1015,439,Station_439,San Francisco,Level 1,26.967931002629683,user_1015@example.com
+1016,368,Station_368,Los Angeles,Level 2,68.51919496631803,user_1016@example.com
+1017,471,Station_471,Houston,Level 1,71.7085068763758,user_1017@example.com
+1018,198,Station_198,Chicago,Level 1,79.24854612418856,user_1018@example.com
+1019,371,Station_371,Los Angeles,DC Fast Charger,34.14920011576352,user_1019@example.com
+1020,373,Station_373,New York,Level 1,66.70625110738425,user_1020@example.com
+1021,461,Station_461,San Francisco,Level 2,30.773548133404887,user_1021@example.com
+1022,497,Station_497,Chicago,DC Fast Charger,24.155781563888247,user_1022@example.com
+1023,87,Station_87,Los Angeles,Level 2,10.347606688667652,user_1023@example.com
+1024,201,Station_201,San Francisco,DC Fast Charger,26.30453465597864,user_1024@example.com
+1025,337,Station_337,San Francisco,DC Fast Charger,26.730320039666697,user_1025@example.com
+1026,322,Station_322,San Francisco,Level 1,48.61478557078329,user_1026@example.com
+1027,275,Station_275,New York,Level 1,1.3302257390094765,user_1027@example.com
+1028,211,Station_211,Houston,Level 2,44.01595165676219,user_1028@example.com
+1029,391,Station_391,San Francisco,Level 2,18.433946311771635,user_1029@example.com
+1030,118,Station_118,Chicago,Level 1,37.70311871847127,user_1030@example.com
+1031,191,Station_191,Los Angeles,Level 2,56.19836617198485,user_1031@example.com
+1032,42,Station_42,Chicago,Level 2,73.27597597314914,user_1032@example.com
+1033,42,Station_42,New York,Level 1,76.89240009827725,user_1033@example.com
+1034,315,Station_315,New York,DC Fast Charger,23.92505033099207,user_1034@example.com
+1035,276,Station_276,Chicago,Level 1,50.48944002879003,user_1035@example.com
+1036,329,Station_329,Houston,Level 2,66.09153402649976,user_1036@example.com
+1037,17,Station_17,New York,DC Fast Charger,6.918423739637612,user_1037@example.com
+1038,283,Station_283,New York,Level 1,,user_1038@example.com
+1039,431,Station_431,Chicago,DC Fast Charger,61.03806279047378,user_1039@example.com
+1040,258,Station_258,New York,Level 2,64.22961963559717,user_1040@example.com
+1041,63,Station_63,Houston,DC Fast Charger,44.88676331081039,user_1041@example.com
+1042,62,Station_62,Houston,Level 2,58.94085857253415,user_1042@example.com
+1043,100,Station_100,Houston,Level 1,10.039817806428031,user_1043@example.com
+1044,19,Station_19,Los Angeles,DC Fast Charger,17.53493129851908,user_1044@example.com
+1045,17,Station_17,Houston,DC Fast Charger,29.758384839143087,user_1045@example.com
+1046,325,Station_325,Houston,DC Fast Charger,69.59647495660728,user_1046@example.com
+1047,423,Station_423,Los Angeles,Level 2,49.93390136150811,user_1047@example.com
+1048,466,Station_466,San Francisco,Level 1,14.49216023800693,user_1048@example.com
+1049,373,Station_373,New York,Level 1,38.409401627820046,user_1049@example.com
+1050,246,Station_246,Houston,Level 2,8.234584116412151,user_1050@example.com
+1051,251,Station_251,New York,DC Fast Charger,34.86162084385812,user_1051@example.com
+1052,455,Station_455,Chicago,Level 2,57.92746599973164,user_1052@example.com
+1053,81,Station_81,New York,Level 2,49.40924272632639,user_1053@example.com
+1054,39,Station_39,Los Angeles,Level 1,9.98078152795496,user_1054@example.com
+1055,36,Station_36,New York,Level 2,29.05244637809921,user_1055@example.com
+1056,424,Station_424,New York,DC Fast Charger,42.09423335073603,user_1056@example.com
+1057,429,Station_429,New York,Level 2,45.76954763488772,user_1057@example.com
+1058,388,Station_388,San Francisco,Level 2,53.71328701264429,user_1058@example.com
+1059,486,Station_486,San Francisco,Level 2,66.40550756937826,user_1059@example.com
+1060,409,Station_409,Chicago,DC Fast Charger,11.456912304995278,user_1060@example.com
+1061,197,Station_197,Los Angeles,Level 2,75.57096449529908,user_1061@example.com
+1062,158,Station_158,New York,Level 1,44.36125627735559,user_1062@example.com
+1063,204,Station_204,New York,Level 2,28.253031404856078,user_1063@example.com
+1064,196,Station_196,New York,Level 2,39.48883106753241,user_1064@example.com
+1065,216,Station_216,New York,Level 1,25.36585765013293,user_1065@example.com
+1066,285,Station_285,San Francisco,Level 1,69.21096127147155,user_1066@example.com
+1067,457,Station_457,Chicago,Level 1,34.60220459389867,user_1067@example.com
+1068,196,Station_196,Houston,Level 1,40.78700348086861,user_1068@example.com
+1069,307,Station_307,Los Angeles,Level 1,21.871253290777545,user_1069@example.com
+1070,152,Station_152,New York,Level 1,47.23207084043696,user_1070@example.com
+1071,14,Station_14,Chicago,DC Fast Charger,,user_1071@example.com
+1072,325,Station_325,Houston,Level 2,18.79049305407434,user_1072@example.com
+1073,146,Station_146,Chicago,DC Fast Charger,47.28525433337332,user_1073@example.com
+1074,426,Station_426,San Francisco,DC Fast Charger,30.165570663990163,user_1074@example.com
+1075,57,Station_57,Houston,Level 1,34.895113266087755,user_1075@example.com
+1076,211,Station_211,Chicago,Level 2,54.96447201998234,user_1076@example.com
+1077,268,Station_268,San Francisco,DC Fast Charger,74.78581939727512,user_1077@example.com
+1078,210,Station_210,Chicago,Level 2,34.79054782301729,user_1078@example.com
+1079,17,Station_17,Chicago,Level 2,69.13309024823164,user_1079@example.com
+1080,286,Station_286,Houston,Level 1,38.08536376892858,user_1080@example.com
+1081,344,Station_344,San Francisco,Level 2,27.752745917900945,user_1081@example.com
+1082,203,Station_203,New York,DC Fast Charger,41.65484517329656,user_1082@example.com
+1083,99,Station_99,Los Angeles,DC Fast Charger,35.38682540127056,user_1083@example.com
+1084,279,Station_279,Houston,Level 1,68.56767860768713,user_1084@example.com
+1085,209,Station_209,San Francisco,DC Fast Charger,,user_1085@example.com
+1086,129,Station_129,Chicago,Level 1,36.46547333950338,user_1086@example.com
+1087,335,Station_335,San Francisco,DC Fast Charger,44.64048952672159,user_1087@example.com
+1088,288,Station_288,Los Angeles,DC Fast Charger,40.27163575273819,user_1088@example.com
+1089,252,Station_252,Los Angeles,Level 1,34.43336364069278,user_1089@example.com
+1090,265,Station_265,New York,Level 2,,user_1090@example.com
+1091,271,Station_271,New York,Level 1,18.561385925179625,user_1091@example.com
+1092,412,Station_412,Los Angeles,Level 2,59.79776909471581,user_1092@example.com
+1093,408,Station_408,Houston,Level 2,59.7683124702693,user_1093@example.com
+1094,188,Station_188,Houston,Level 1,36.70152016311202,user_1094@example.com
+1095,419,Station_419,Chicago,Level 1,10.23177592340076,user_1095@example.com
+1096,214,Station_214,New York,Level 1,24.23053686415175,user_1096@example.com
+1097,283,Station_283,Chicago,Level 2,21.70612432843914,user_1097@example.com
+1098,211,Station_211,New York,Level 2,57.896271802948434,user_1098@example.com
+1099,365,Station_365,Los Angeles,Level 2,35.17106494410814,user_1099@example.com
+1100,76,Station_76,Houston,Level 2,15.729551165353076,user_1100@example.com
+1101,148,Station_148,Houston,Level 1,34.077999734831565,user_1101@example.com
+1102,321,Station_321,Los Angeles,Level 1,26.050244075726223,user_1102@example.com
+1103,213,Station_213,Chicago,Level 2,21.847908232183183,user_1103@example.com
+1104,433,Station_433,Chicago,DC Fast Charger,15.42551087839598,user_1104@example.com
+1105,109,Station_109,San Francisco,Level 1,13.650698039870646,user_1105@example.com
+1106,129,Station_129,New York,DC Fast Charger,24.775659394661684,user_1106@example.com
+1107,10,Station_10,Chicago,DC Fast Charger,67.45812734205117,user_1107@example.com
+1108,47,Station_47,Los Angeles,DC Fast Charger,12.043247362327255,user_1108@example.com
+1109,379,Station_379,Chicago,Level 2,61.23146590227786,user_1109@example.com
+1110,315,Station_315,Houston,Level 1,23.193290217345247,user_1110@example.com
+1111,96,Station_96,New York,DC Fast Charger,48.38617697981442,user_1111@example.com
+1112,446,Station_446,San Francisco,Level 2,29.6808062667524,user_1112@example.com
+1113,103,Station_103,New York,Level 1,25.08836904191854,user_1113@example.com
+1114,380,Station_380,Houston,Level 2,,user_1114@example.com
+1115,342,Station_342,Houston,Level 1,56.1150925022779,user_1115@example.com
+1116,146,Station_146,Houston,Level 1,15.898734225246953,user_1116@example.com
+1117,368,Station_368,Houston,Level 2,41.15701390960357,user_1117@example.com
+1118,430,Station_430,Los Angeles,DC Fast Charger,41.90586399017345,user_1118@example.com
+1119,416,Station_416,San Francisco,Level 1,8.335789160236999,user_1119@example.com
+1120,27,Station_27,Houston,Level 1,90.23550358200892,user_1120@example.com
+1121,220,Station_220,Houston,DC Fast Charger,18.1024722667836,user_1121@example.com
+1122,18,Station_18,Chicago,Level 1,59.19854015458014,user_1122@example.com
+1123,167,Station_167,San Francisco,DC Fast Charger,,user_1123@example.com
+1124,433,Station_433,New York,Level 1,15.774763064545793,user_1124@example.com
+1125,477,Station_477,San Francisco,DC Fast Charger,75.09027362309024,user_1125@example.com
+1126,82,Station_82,San Francisco,Level 1,23.915003796268465,user_1126@example.com
+1127,428,Station_428,San Francisco,Level 1,13.819971244902632,user_1127@example.com
+1128,72,Station_72,Houston,Level 1,79.97267190690829,user_1128@example.com
+1129,310,Station_310,Houston,DC Fast Charger,5.163807087916792,user_1129@example.com
+1130,479,Station_479,Los Angeles,Level 1,55.095255841104894,user_1130@example.com
+1131,254,Station_254,New York,Level 2,38.188211099692175,user_1131@example.com
+1132,162,Station_162,Chicago,Level 2,41.13168722967361,user_1132@example.com
+1133,327,Station_327,San Francisco,Level 2,55.199838402705424,user_1133@example.com
+1134,420,Station_420,New York,Level 1,72.31121635965684,user_1134@example.com
+1135,402,Station_402,New York,DC Fast Charger,37.49380570218128,user_1135@example.com
+1136,38,Station_38,Los Angeles,DC Fast Charger,55.374954290710285,user_1136@example.com
+1137,443,Station_443,Chicago,Level 1,33.467398984964014,user_1137@example.com
+1138,393,Station_393,San Francisco,Level 2,53.35952018455622,user_1138@example.com
+1139,201,Station_201,Chicago,DC Fast Charger,76.03768937793197,user_1139@example.com
+1140,494,Station_494,Los Angeles,Level 1,9.79334907118558,user_1140@example.com
+1141,200,Station_200,Houston,DC Fast Charger,45.45344885211073,user_1141@example.com
+1142,255,Station_255,New York,Level 2,31.728682285908047,user_1142@example.com
+1143,179,Station_179,San Francisco,Level 2,76.16478844210974,user_1143@example.com
+1144,35,Station_35,Houston,DC Fast Charger,59.16864335631949,user_1144@example.com
+1145,82,Station_82,Los Angeles,Level 1,15.10403338179977,user_1145@example.com
+1146,389,Station_389,Chicago,Level 1,66.24653780691024,user_1146@example.com
+1147,398,Station_398,New York,DC Fast Charger,30.726160737544745,user_1147@example.com
+1148,220,Station_220,San Francisco,Level 2,77.69304556526747,user_1148@example.com
+1149,158,Station_158,Houston,Level 1,77.12500791368723,user_1149@example.com
+1150,4,Station_4,Houston,DC Fast Charger,8.28243853987389,user_1150@example.com
+1151,167,Station_167,New York,DC Fast Charger,50.5305305671186,user_1151@example.com
+1152,468,Station_468,Chicago,Level 2,64.9305064614647,user_1152@example.com
+1153,448,Station_448,Los Angeles,Level 2,,user_1153@example.com
+1154,409,Station_409,Chicago,Level 1,55.62849667174399,user_1154@example.com
+1155,412,Station_412,Chicago,Level 1,41.99326219500855,user_1155@example.com
+1156,204,Station_204,Chicago,Level 1,38.69718656721909,user_1156@example.com
+1157,194,Station_194,New York,Level 2,62.26265635402747,user_1157@example.com
+1158,235,Station_235,New York,DC Fast Charger,35.84413909327468,user_1158@example.com
+1159,206,Station_206,Los Angeles,Level 1,55.46883682152323,user_1159@example.com
+1160,150,Station_150,Chicago,Level 1,19.721540010730703,user_1160@example.com
+1161,159,Station_159,New York,Level 1,68.45025675480477,user_1161@example.com
+1162,279,Station_279,Los Angeles,DC Fast Charger,79.94974411198142,user_1162@example.com
+1163,304,Station_304,Los Angeles,Level 1,60.46898672586866,user_1163@example.com
+1164,404,Station_404,Chicago,Level 1,35.38265952853404,user_1164@example.com
+1165,381,Station_381,San Francisco,Level 2,37.688027665454456,user_1165@example.com
+1166,166,Station_166,Chicago,Level 2,20.79343928787075,user_1166@example.com
+1167,311,Station_311,San Francisco,Level 2,53.36289470151473,user_1167@example.com
+1168,68,Station_68,Los Angeles,DC Fast Charger,24.267335453342245,user_1168@example.com
+1169,463,Station_463,New York,Level 2,68.20904345854468,user_1169@example.com
+1170,88,Station_88,Houston,Level 1,27.706067785342437,user_1170@example.com
+1171,217,Station_217,Los Angeles,Level 1,76.68731222622425,user_1171@example.com
+1172,1,Station_1,New York,DC Fast Charger,45.36457787633022,user_1172@example.com
+1173,135,Station_135,Los Angeles,DC Fast Charger,27.498043111589936,user_1173@example.com
+1174,185,Station_185,Chicago,Level 1,74.70693087698855,user_1174@example.com
+1175,351,Station_351,San Francisco,DC Fast Charger,37.52045250571513,user_1175@example.com
+1176,140,Station_140,Los Angeles,Level 1,24.04346935025211,user_1176@example.com
+1177,106,Station_106,New York,Level 2,9.51652733339272,user_1177@example.com
+1178,133,Station_133,Chicago,Level 1,39.88426993608347,user_1178@example.com
+1179,108,Station_108,Houston,DC Fast Charger,5.755524649492359,user_1179@example.com
+1180,178,Station_178,Chicago,Level 2,13.003539499532652,user_1180@example.com
+1181,298,Station_298,San Francisco,Level 1,21.35157383578864,user_1181@example.com
+1182,358,Station_358,Chicago,DC Fast Charger,48.84665066850152,user_1182@example.com
+1183,380,Station_380,Houston,DC Fast Charger,9.206012694775316,user_1183@example.com
+1184,396,Station_396,New York,Level 2,19.93670718240265,user_1184@example.com
+1185,359,Station_359,Los Angeles,Level 1,,user_1185@example.com
+1186,146,Station_146,San Francisco,Level 1,76.18778788307228,user_1186@example.com
+1187,450,Station_450,Houston,DC Fast Charger,72.94073165721504,user_1187@example.com
+1188,74,Station_74,San Francisco,Level 2,24.54169744898367,user_1188@example.com
+1189,463,Station_463,Chicago,Level 1,7.446816605478516,user_1189@example.com
+1190,478,Station_478,San Francisco,Level 2,17.199039032159078,user_1190@example.com
+1191,108,Station_108,Houston,DC Fast Charger,,user_1191@example.com
+1192,122,Station_122,Los Angeles,Level 1,72.27855411576432,user_1192@example.com
+1193,17,Station_17,Los Angeles,DC Fast Charger,18.01705100546142,user_1193@example.com
+1194,196,Station_196,San Francisco,Level 1,59.126629342112274,user_1194@example.com
+1195,327,Station_327,New York,DC Fast Charger,35.86668099087705,user_1195@example.com
+1196,318,Station_318,San Francisco,Level 1,5.20011260069647,user_1196@example.com
+1197,297,Station_297,Chicago,Level 2,28.77227402735012,user_1197@example.com
+1198,479,Station_479,Los Angeles,Level 1,61.90801716904538,user_1198@example.com
+1199,499,Station_499,Los Angeles,Level 1,35.017606522824096,user_1199@example.com
+1200,252,Station_252,Los Angeles,DC Fast Charger,14.804488742545598,user_1200@example.com
+1201,487,Station_487,New York,Level 1,65.10291874065945,user_1201@example.com
+1202,119,Station_119,New York,Level 1,18.120951026827235,user_1202@example.com
+1203,162,Station_162,Houston,Level 1,61.63104965912597,user_1203@example.com
+1204,198,Station_198,San Francisco,DC Fast Charger,71.8059193887291,user_1204@example.com
+1205,498,Station_498,San Francisco,Level 1,45.98918433743132,user_1205@example.com
+1206,486,Station_486,Chicago,Level 2,45.858999052265375,user_1206@example.com
+1207,45,Station_45,Los Angeles,Level 2,55.691891653122006,user_1207@example.com
+1208,314,Station_314,New York,DC Fast Charger,23.050456238396517,user_1208@example.com
+1209,179,Station_179,Chicago,Level 1,39.97272424864232,user_1209@example.com
+1210,382,Station_382,Chicago,DC Fast Charger,21.05357940478484,user_1210@example.com
+1211,418,Station_418,New York,Level 1,8.789017000425101,user_1211@example.com
+1212,44,Station_44,San Francisco,DC Fast Charger,97.6677653925048,user_1212@example.com
+1213,271,Station_271,Los Angeles,Level 1,39.94579631974886,user_1213@example.com
+1214,78,Station_78,San Francisco,Level 1,41.01292040629061,user_1214@example.com
+1215,326,Station_326,Chicago,DC Fast Charger,11.422192304640166,user_1215@example.com
+1216,178,Station_178,Los Angeles,DC Fast Charger,52.28437229318183,user_1216@example.com
+1217,357,Station_357,Houston,DC Fast Charger,77.63234569193523,user_1217@example.com
+1218,498,Station_498,Chicago,Level 1,14.175393197160597,user_1218@example.com
+1219,416,Station_416,San Francisco,DC Fast Charger,28.337522357857683,user_1219@example.com
+1220,451,Station_451,San Francisco,Level 1,17.628897372729085,user_1220@example.com
+1221,3,Station_3,San Francisco,Level 2,45.45111536306598,user_1221@example.com
+1222,214,Station_214,New York,Level 2,49.66092549992548,user_1222@example.com
+1223,342,Station_342,Chicago,Level 1,23.942080345214407,user_1223@example.com
+1224,74,Station_74,Los Angeles,Level 1,23.86992273236189,user_1224@example.com
+1225,51,Station_51,San Francisco,DC Fast Charger,8.641282040664738,user_1225@example.com
+1226,67,Station_67,San Francisco,Level 1,11.139612943722046,user_1226@example.com
+1227,332,Station_332,New York,Level 1,46.40242818798875,user_1227@example.com
+1228,93,Station_93,Los Angeles,Level 2,77.2662199543138,user_1228@example.com
+1229,176,Station_176,Chicago,DC Fast Charger,5.995140564565627,user_1229@example.com
+1230,145,Station_145,Houston,DC Fast Charger,21.270741905550192,user_1230@example.com
+1231,7,Station_7,New York,Level 1,38.13860653803928,user_1231@example.com
+1232,269,Station_269,Chicago,DC Fast Charger,37.9980325281785,user_1232@example.com
+1233,376,Station_376,Houston,Level 2,12.89314235582393,user_1233@example.com
+1234,322,Station_322,San Francisco,Level 2,60.624560710723856,user_1234@example.com
+1235,4,Station_4,San Francisco,Level 2,,user_1235@example.com
+1236,138,Station_138,Los Angeles,Level 1,5.868319195612725,user_1236@example.com
+1237,231,Station_231,Houston,Level 1,,user_1237@example.com
+1238,88,Station_88,San Francisco,Level 2,77.69879024520026,user_1238@example.com
+1239,17,Station_17,San Francisco,Level 2,94.36532940921012,user_1239@example.com
+1240,52,Station_52,Los Angeles,DC Fast Charger,43.95822631658241,user_1240@example.com
+1241,134,Station_134,Chicago,DC Fast Charger,76.48074420185159,user_1241@example.com
+1242,211,Station_211,San Francisco,DC Fast Charger,66.17819525015547,user_1242@example.com
+1243,325,Station_325,New York,DC Fast Charger,76.24242378732372,user_1243@example.com
+1244,480,Station_480,New York,Level 2,35.15737675512804,user_1244@example.com
+1245,458,Station_458,Chicago,DC Fast Charger,53.11979970086487,user_1245@example.com
+1246,393,Station_393,Houston,Level 2,43.12603811805074,user_1246@example.com
+1247,219,Station_219,Los Angeles,Level 2,60.68153839035487,user_1247@example.com
+1248,205,Station_205,New York,Level 1,33.67446234201802,user_1248@example.com
+1249,211,Station_211,New York,DC Fast Charger,54.54859168539257,user_1249@example.com
+1250,277,Station_277,Chicago,Level 2,14.11630705481829,user_1250@example.com
+1251,24,Station_24,Houston,Level 1,11.321914132806013,user_1251@example.com
+1252,486,Station_486,Houston,Level 1,26.586710215463047,user_1252@example.com
+1253,4,Station_4,Chicago,Level 2,65.92220415676107,user_1253@example.com
+1254,152,Station_152,New York,Level 2,37.51588423680197,user_1254@example.com
+1255,443,Station_443,Los Angeles,DC Fast Charger,20.07464990247556,user_1255@example.com
+1256,483,Station_483,New York,DC Fast Charger,10.390644028146834,user_1256@example.com
+1257,259,Station_259,Houston,Level 2,5.892835163588776,user_1257@example.com
+1258,324,Station_324,New York,Level 2,48.52491426934318,user_1258@example.com
+1259,357,Station_357,Los Angeles,Level 1,51.94497776365302,user_1259@example.com
+1260,168,Station_168,San Francisco,Level 1,20.79043601283822,user_1260@example.com
+1261,176,Station_176,New York,Level 1,49.48345837435455,user_1261@example.com
+1262,310,Station_310,Chicago,Level 1,25.527547211644688,user_1262@example.com
+1263,291,Station_291,San Francisco,Level 1,19.958025275991496,user_1263@example.com
+1264,479,Station_479,Chicago,DC Fast Charger,33.694161775319,user_1264@example.com
+1265,56,Station_56,Chicago,Level 1,45.15937317195059,user_1265@example.com
+1266,108,Station_108,Chicago,Level 2,60.83110355266755,user_1266@example.com
+1267,473,Station_473,New York,DC Fast Charger,,user_1267@example.com
+1268,296,Station_296,Houston,Level 1,47.67827374967497,user_1268@example.com
+1269,461,Station_461,San Francisco,Level 1,27.63793401856366,user_1269@example.com
+1270,324,Station_324,Los Angeles,Level 1,66.46105412754665,user_1270@example.com
+1271,302,Station_302,Houston,Level 2,,user_1271@example.com
+1272,334,Station_334,New York,Level 1,,user_1272@example.com
+1273,141,Station_141,Chicago,Level 2,10.201613009568993,user_1273@example.com
+1274,155,Station_155,Los Angeles,Level 2,67.61464385497968,user_1274@example.com
+1275,262,Station_262,San Francisco,Level 1,8.936913796477242,user_1275@example.com
+1276,273,Station_273,Houston,Level 1,26.4440331229724,user_1276@example.com
+1277,420,Station_420,Houston,DC Fast Charger,42.01795949517358,user_1277@example.com
+1278,232,Station_232,Los Angeles,DC Fast Charger,27.99720488584749,user_1278@example.com
+1279,241,Station_241,New York,DC Fast Charger,34.54134762062127,user_1279@example.com
+1280,355,Station_355,San Francisco,Level 2,67.07828216010658,user_1280@example.com
+1281,337,Station_337,Los Angeles,Level 1,39.70699556704798,user_1281@example.com
+1282,489,Station_489,Chicago,DC Fast Charger,6.448880265075534,user_1282@example.com
+1283,258,Station_258,San Francisco,Level 2,30.751503981203896,user_1283@example.com
+1284,249,Station_249,Houston,DC Fast Charger,28.80292498005887,user_1284@example.com
+1285,77,Station_77,Los Angeles,DC Fast Charger,30.98756655243088,user_1285@example.com
+1286,180,Station_180,Houston,Level 1,85.03985430629427,user_1286@example.com
+1287,66,Station_66,Houston,Level 1,47.76784734327861,user_1287@example.com
+1288,308,Station_308,Houston,Level 2,57.45442116792438,user_1288@example.com
+1289,348,Station_348,New York,Level 1,45.93945507648217,user_1289@example.com
+1290,171,Station_171,Houston,DC Fast Charger,49.53480945615692,user_1290@example.com
+1291,474,Station_474,Chicago,Level 2,52.73977320604877,user_1291@example.com
+1292,22,Station_22,Chicago,Level 2,61.93297987243194,user_1292@example.com
+1293,367,Station_367,San Francisco,Level 2,23.437875326038824,user_1293@example.com
+1294,107,Station_107,Houston,Level 2,8.315805795177543,user_1294@example.com
+1295,439,Station_439,Houston,Level 1,10.185000186311704,user_1295@example.com
+1296,323,Station_323,Los Angeles,DC Fast Charger,71.94505922956554,user_1296@example.com
+1297,227,Station_227,New York,Level 1,9.209067930589208,user_1297@example.com
+1298,444,Station_444,San Francisco,Level 1,21.918495812082128,user_1298@example.com
+1299,442,Station_442,Houston,Level 2,21.795382498227173,user_1299@example.com
+1300,396,Station_396,Los Angeles,Level 1,27.994930739365664,user_1300@example.com
+1301,216,Station_216,New York,Level 1,35.7622826922978,user_1301@example.com
+1302,69,Station_69,San Francisco,DC Fast Charger,7.917185918511961,user_1302@example.com
+1303,84,Station_84,San Francisco,Level 2,26.17745506640429,user_1303@example.com
+1304,103,Station_103,Houston,Level 1,,user_1304@example.com
+1305,39,Station_39,San Francisco,Level 2,60.25144069020241,user_1305@example.com
+1306,13,Station_13,Los Angeles,DC Fast Charger,15.691719285120502,user_1306@example.com
+1307,297,Station_297,San Francisco,Level 1,54.82511333467084,user_1307@example.com
+1308,313,Station_313,Chicago,DC Fast Charger,65.23254316413059,user_1308@example.com
+1309,181,Station_181,Los Angeles,DC Fast Charger,6.432324170240332,user_1309@example.com
+1310,493,Station_493,New York,Level 2,16.126089718922938,user_1310@example.com
+1311,268,Station_268,New York,Level 2,66.97990803084751,user_1311@example.com
+1312,13,Station_13,Houston,Level 2,74.27670057664027,user_1312@example.com
+1313,120,Station_120,Houston,Level 1,39.73385254628378,user_1313@example.com
+1314,458,Station_458,Chicago,Level 2,60.7251438890711,user_1314@example.com
+1315,353,Station_353,New York,Level 1,43.251453479602375,user_1315@example.com
+1316,57,Station_57,New York,DC Fast Charger,42.01165353037616,user_1316@example.com
+1317,40,Station_40,New York,Level 2,68.18585286511737,user_1317@example.com
+1318,374,Station_374,New York,DC Fast Charger,18.895101661444063,user_1318@example.com
+1319,336,Station_336,San Francisco,Level 2,13.75625150299386,user_1319@example.com
+1320,128,Station_128,Los Angeles,DC Fast Charger,63.65257024136892,user_1320@example.com
