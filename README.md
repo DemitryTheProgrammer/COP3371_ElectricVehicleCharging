@@ -24,6 +24,11 @@ City Planners: Access analytics on high-demand areas to plan future infrastructu
 
 ----
 
+Getting Started:
+ERD: <a href="https://github.com/DemitryTheProgrammer/COP3371_ElectricVehicleCharging/blob/main/database_er.md">Entity Relational Diagram</a>
+
+----
+
 https://www.kaggle.com/datasets/prasertk/ev-charging-stations
 
 https://www.kaggle.com/datasets/valakhorasani/electric-vehicle-charging-patterns
